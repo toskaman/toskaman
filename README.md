@@ -34,6 +34,7 @@
 | **Anticipate Graph Engine Latency** | **18 ms / 100 nodes** | Deterministic transitive impact simulation for Jira Cloud (Codegeist 2026) |
 | **BridgeWindows-v4 E2E Test Suite** | **23/23 Passing (100%)** | Mutual HMAC-SHA256 protocol, zero secrets on wire, multi-PC routing |
 | **Firefall PIN MMO Server Tests** | **164 Passing Tests** | Full server reconstruction (.NET 9, Matrix/GSS protocol, BepuPhysics v2) |
+| **Luna Bay Voxel & Simulation Tick** | **128x96 Grid @ 20 Hz** | Luau Strict custom engine, BulkMoveTo wind, 6-joint rig (16 gestures) |
 
 ---
 
@@ -137,6 +138,22 @@
 
 ---
 
+### 9. 🏝️ [Luna Bay (RoCrossing)](https://www.roblox.com/games/101873866819894) — Custom Island Simulation & Procedural Animation Engine
+*High-fidelity social simulation built from scratch on Roblox (Place ID: [101873866819894](https://www.roblox.com/games/101873866819894))*
+
+* **The Vision**: Recreate the tactile charm, environmental responsiveness, and multiplayer hospitality of island-life sims (Animal Crossing) inside a strict, zero-bloat custom engine.
+* **Core Technical Architecture**:
+  * **Strict Typing & Modular Architecture**: Built entirely in Luau Strict Mode (`--!strict`) using Rojo for continuous file-system synchronization and version-controlled game assembly.
+  * **128x96 Stepped Voxel Topography**: Custom multi-tier terrain grid with cliff elevations, river carving, ramp navigators, and dynamic grid-aligned tile placement.
+  * **20Hz Batched Wind Simulation**: Environmental foliage, flower sway, and canopy physics driven by batched `workspace:BulkMoveTo` transforms, eliminating individual property write overhead.
+  * **Procedural 6-Joint Character Rig**: Full custom character model with 16 expressive procedural gestures (emotes, tool swings, fishing casts, reactions) decoupled from standard R6/R15 animation bloat.
+  * **Diurnal 24h Real-Time Sync**: Lighting, weather patterns, celestial cycles, and seasonal ambient audio synced seamlessly with real-world UTC timestamps.
+  * **Reserved Server Multiplayer & Crossing Codes**: Ephemeral multiplayer lobbies powered by Roblox `MemoryStoreSortedMap` and 5-character alphanumeric "Crossing Codes" for seamless, zero-friction island visits.
+* **Empirical Performance**: Smooth 60 FPS tick rates across mobile and low-end hardware, zero garbage collector stutter via pre-allocated instance pools.
+* **Stack**: `Luau (--!strict)`, `Rojo`, `BulkMoveTo Vector Physics`, `MemoryStoreService`, `TweenService`, `Roblox Engine`.
+
+---
+
 ## 🛠️ Core Technical Arsenal
 
 ```
@@ -150,7 +167,7 @@
 │ Fabrics         │ Deterministic Safety Gates, Tool Synthesis, Fingerprint Approval       │
 ├─────────────────┼────────────────────────────────────────────────────────────────────────┤
 │ Network & Game  │ Unreal Engine 2.5 Protocol, Matrix/GSS, Reverse-TCP v4, HMAC-SHA256    │
-│ Protocols       │ BepuPhysics v2, FastDL (.uz2), GameSpy, WebSocket, Freebox OS REST     │
+│ Protocols       │ BepuPhysics v2, Luau (--!strict), Rojo, FastDL (.uz2), GameSpy, REST   │
 ├─────────────────┼────────────────────────────────────────────────────────────────────────┤
 │ Web & Cloud     │ TypeScript, React, Vite, Node.js, Atlassian Forge, Electron, Tailwind  │
 ├─────────────────┼────────────────────────────────────────────────────────────────────────┤
@@ -166,7 +183,7 @@ Are you looking for an experienced engineer who can solve intractable low-level 
 
 ### What I Offer:
 1. **Commercial Asset Licensing & Acquisition**:
-   * Licensing rights, white-label versions, or source code acquisition for **OpenKF**, **RBX-Manager-2**, **BridgeWindows-v4**, or the **Orpane Codec**.
+   * Licensing rights, white-label versions, or source code acquisition for **OpenKF**, **Luna Bay**, **RBX-Manager-2**, **BridgeWindows-v4**, or the **Orpane Codec**.
 2. **Senior Staff / Principal Engineering Roles**:
    * Available for high-impact roles in Systems Engineering, Low-Level Architecture, Game Engine Development, and AI Infrastructure.
 3. **Specialized Technical Consulting**:
