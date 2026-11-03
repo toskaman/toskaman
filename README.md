@@ -1,202 +1,116 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg" />
+  <img alt="MSDOS10 — Independent Systems and Applied AI Engineer banner" src="assets/hero-light.svg" width="100%" />
+</picture>
 
-# Hi, I'm toskaman (MSDOS) 👋
+# Hi, I'm MSDOS10 (toskaman)
 
-### **Senior Systems & Low-Level Architect • Autonomous AI Fabrics • Engine Reconstruction**
-*20+ years building high-performance native engines, zero-trust device fabrics, and verifiable AI systems.*
+**Independent Systems & Applied AI Engineer.** I design automation, integrations, and AI-assisted workflows that ship with documentation and honest evidence.
 
-[![Portfolio](https://img.shields.io/badge/Live_Portfolio-toskaman.github.io%2Fmsdos-00f2ff?style=flat-square&logo=googlechrome&logoColor=white)](https://toskaman.github.io/msdos/)
-[![Discord](https://img.shields.io/badge/Discord-therealcopper-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/zNpj8ctH9p)
-[![Email](https://img.shields.io/badge/Email-toskaman5962%2Bportfolio%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:toskaman5962+portfolio@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-%40toskaman-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/toskaman)
-[![Security](https://img.shields.io/badge/Audits-0%2F72_VirusTotal_Clean-brightgreen?style=flat-square&logo=virustotal&logoColor=white)](#-security-integrity--clean-room-standards)
+![Status: Independent](https://img.shields.io/badge/Status-Independent-46D6CF?style=flat-square&labelColor=172235&color=46D6CF)
+![Focus: Systems and Applied AI](https://img.shields.io/badge/Focus-Systems_%26_Applied_AI-46D6CF?style=flat-square&labelColor=172235&color=46D6CF)
+![Strength: Automation](https://img.shields.io/badge/Strength-Automation-46D6CF?style=flat-square&labelColor=172235&color=46D6CF)
+![Strength: Integrations](https://img.shields.io/badge/Strength-Integrations-46D6CF?style=flat-square&labelColor=172235&color=46D6CF)
+![Practice: Documented Code](https://img.shields.io/badge/Practice-Documented_Code-46D6CF?style=flat-square&labelColor=172235&color=46D6CF)
+![Practice: Open Source](https://img.shields.io/badge/Practice-Open_Source-46D6CF?style=flat-square&labelColor=172235&color=46D6CF)
+![Contact: via GitHub Profile](https://img.shields.io/badge/Contact-via_GitHub_Profile-46D6CF?style=flat-square&labelColor=172235&color=46D6CF)
 
----
+## What I Build
 
-> **"I care about things that work on real hardware, with empirical proof, not promises."**  
-> Every architecture I build is verified through bit-exact comparisons, regression suites, and physical hardware read-backs.
+- **Automation systems** — scheduled jobs, pipelines, and unattended workflows with logs and recovery paths. See [OpenBridge](https://github.com/toskaman/openbridge).
+- **Integrations** — APIs, bridges, and multi-machine tooling across Windows and Linux. See [BridgeWindows-v4](https://github.com/toskaman/BridgeWindows-v4) and [Freenekit](https://github.com/toskaman/Freenekit).
+- **Applied-AI decision support** — evidence graphs and review gates inside real team tools. See [Anticipate](https://github.com/toskaman/anticipate-codegeist-2026) (joint work, see notes).
+- **Performance and interop engineering** — measured native clients and verification suites. See [OpenKF](https://github.com/toskaman/OpenKF) and [orpane-proof-package](https://github.com/toskaman/orpane-proof-package).
 
-</div>
+## Featured Work
 
----
+### 1. OpenBridge — flagship automation and integration fabric
 
-### 📊 Engineering Evidence at a Glance
+- Repo: [toskaman/openbridge](https://github.com/toskaman/openbridge) · Docs: [release status](https://raw.githubusercontent.com/toskaman/openbridge/main/docs/RELEASE_STATUS.md) · [jury start](https://raw.githubusercontent.com/toskaman/openbridge/main/docs/jury/JURY_START_HERE.md)
+- Dependency-free Python runtime; verification via stdlib `unittest discover` on Windows, Ubuntu, and macOS plus Playwright browser smokes ([workflow](https://raw.githubusercontent.com/toskaman/openbridge/main/.github/workflows/verify.yml)).
+- Reported suite: 2115 tests green at `origin/main 2351308` (2 Nov 2026, PRs 164–177). Re-verify at current head before citing as current.
+- Device evidence: 37 first-party records (28 real-hardware + 7 full-guest + 2 official emulators) — records, not 37 unique physical capabilities. Simulations and replays are labeled and never counted as physical proof.
+- License: PolyForm Strict 1.0.0 on main (use-only; no distribution, modification, derivatives, or sublicense). MIT rights attach only to the `v0.2.0`-tagged snapshot.
+- Built as a Meta Global AI Developer Hackathon 2026 entry (Indie Developer). No placement claimed.
 
-| Metric | Measured Value | Verification Benchmark / Scope |
-| :--- | :---: | :--- |
-| **OpenBridge CI Verification** | **820+ Passing Tests** | Windows + Linux CI matrix, deterministic safety gates |
-| **OpenBridge Hardware Records** | **37 Verified Records** | 28 physical devices, 7 VM guests, 2 official emulators |
-| **OpenKF Frame Rate** | **671 FPS** | Solo KF-WestLondon vs 120 FPS retail hard engine cap |
-| **OpenKF Map Loading Time** | **0.14 s** | ~24x faster than retail v1065 (3.32 s) via memory-mapped pools |
-| **Orpane Lossless Compression** | **53/53 Benchmark Wins** | 100% win rate vs 7-Zip 26.02 `-mx9` on Silesia corpus (+2.4 MB saved) |
-| **RBX Manager 2 Active Community** | **10,000+ Members** | Windows multi-account management with 0/72 clean VirusTotal |
-| **RBX Manager 2 VRAM Reduction** | **-84% per instance** | Custom 320x240 micro-window rasterization vs standard 800x600 |
-| **Anticipate Graph Engine Latency** | **18 ms / 100 nodes** | Deterministic transitive impact simulation for Jira Cloud (Codegeist 2026) |
-| **BridgeWindows-v4 E2E Test Suite** | **23/23 Passing (100%)** | Mutual HMAC-SHA256 protocol, zero secrets on wire, multi-PC routing |
-| **Firefall PIN MMO Server Tests** | **164 Passing Tests** | Full server reconstruction (.NET 9, Matrix/GSS protocol, BepuPhysics v2) |
-| **Luna Bay Voxel & Simulation Tick** | **128x96 Grid @ 20 Hz** | Luau Strict custom engine, BulkMoveTo wind, 6-joint rig (16 gestures) |
+### 2. Anticipate — Decision Firewall for Jira (joint work with Orphee, 50/50)
 
----
+- Repo: [toskaman/anticipate-codegeist-2026](https://github.com/toskaman/anticipate-codegeist-2026) · Manifest: [manifest.yml](https://raw.githubusercontent.com/toskaman/anticipate-codegeist-2026/main/manifest.yml)
+- Forge app: full-page Custom UI, `jira:workflowValidator`, Rovo agent with 5 actions, Rovo MCP with 5 tools (graph, retirement/upgrade simulation, passport, plan freshness).
+- Hosted runs on a dev site are maintainer-reported (small test dataset; 6/6 writes verified; drift refusal with 0 writes). No third-party attestation.
+- Screenshots in the repo are mock-transport UI captures, not hosted-Jira proof; video claims cover only what a real install shows.
+- Simulation benchmark: exact-vs-oracle on 200 local synthetic graphs (deterministic seeds, 2 Nov 2026). Not a real-world prediction claim.
+- CI green on main `5e45ed5` (PR #33); frontend job builds only. Test counts per STATUS.md (backend 72, simulation 11, contracts 3, frontend 60 unit) are maintainer-reported.
+- License: proprietary, source-available, explicitly not open source. Joint ownership: any license, sale, or transfer needs written agreement of both holders.
 
-## 🚀 Flagship Engineering Achievements
+### 3. OpenKF — native 64-bit game client engineering (GPL-3.0-or-later)
 
-### 1. 🌐 [OpenBridge](https://github.com/toskaman/openbridge) — Local Meta AI Device Fabric
-*Solo entry for the **Meta Global AI Developer Hackathon 2026** (Indie Track, Push the Frontier)*
+- Repo: [toskaman/OpenKF](https://github.com/toskaman/OpenKF) · Method: [BENCHMARKS.md](https://raw.githubusercontent.com/toskaman/OpenKF/main/docs/BENCHMARKS.md) · [bench.ps1](https://raw.githubusercontent.com/toskaman/OpenKF/main/scripts/bench.ps1)
+- Headline numbers are method-documented with adjacent caveats: 671 FPS solo headless offscreen orbit (1280x720, RTX 4060 Ti, Win11, v1.9.0 night run, p95 1.69ms) shown next to 95–99 FPS live at ~155 actors. Never compare headless-no-present 671 with presented frames.
+- Map load 0.14s vs retail marker (~24x) is a marker-to-marker comparison, documented in the bench notes.
+- PresentMon 2.6.0 windowed comparison: live wave combat vs retail solo empty map, heavier OpenKF scene disclosed.
+- Raw bench JSON/CSV outputs are gitignored, so numbers are method-documented but not independently reproducible from public artifacts. Headline table is v1.9.0 data under a v1.10.0 header with a disclosed pending re-run.
+- No GitHub releases or tags exist; `v1.x` labels are documentary. Author describes a clean-room approach reusing no retail binaries (author assertion; requires IP review before any acquisition).
 
-* **The Vision**: Turn heterogeneous, disconnected household and network hardware into an intelligent, unified fabric where Meta AI models dynamically compose verified cross-device capabilities.
-* **Core Architecture**:
-  * **Tiered Local Inference**: Local Muse Glimmer (30B) and Llama 3.2 models for request understanding, planning, and on-demand UI synthesis; optional hosted Meta Muse Spark for held-out tasks.
-  * **Deterministic Enforcement Gate**: Every AI proposal must clear fingerprint-bound approval, capability validation, and read-back verification before execution.
-  * **Multi-Transport Fabric**: Zero-configuration discovery via mDNS, SSDP, router ARP/DHCP tables, ADB, and BLE relays bridging isolated subnets.
-  * **Transactional Undo Engine**: Reversible state machine with audit receipts for every physical and virtual action.
-* **Empirical Validation**: 820+ automated CI tests, 37 hardware verification records (Android TV, Galaxy Watch7, Freebox Delta, Tuya vacuum, Windows PCs).
-* **Stack**: `Python 3.12`, `Llama 3.2`, `Muse Glimmer 30B`, `ADB`, `Bluetooth LE`, `WebSockets`, `FastAPI`.
+### 4. Orpane proof package — lossless-compression verification suite
 
----
+- Repo: [toskaman/orpane-proof-package](https://github.com/toskaman/orpane-proof-package) · Log: [LOG.md](https://raw.githubusercontent.com/toskaman/orpane-proof-package/main/LOG.md) · Report: [BENCHMARK_REPORT.md](https://raw.githubusercontent.com/toskaman/orpane-proof-package/main/BENCHMARK_REPORT.md)
+- Verified: bit-exact round-trip for the 2 shipped files (Canterbury `alice29.txt`, Calgary `pic`); 7-Zip 26.02 control sizes match the log tables.
+- Scope limit: only 2 raw files ship; the 60-stream aggregate and any Silesia-wide win-rate claims are not verifiable from public artifacts and are not claimed here.
+- Known inconsistencies are disclosed in-repo: shipped `.orpane` sizes vs log tables, Zstd flag text (`-22` vs `-19`), decoder binary size vs claimed bytes, version strings. Exact 7-Zip CLI is not recorded, so byte-identical replication is not possible.
+- Decoder is open (Rust; entropy stage dispatches to brotli, bzip2-rs, ruzstd, lzma-rs; custom OLZ1/OLZ2 + CM paths). Encoder is closed, so pipeline superiority claims stay unverified.
 
-### 2. 🛡️ [Anticipate](https://github.com/toskaman/anticipate-codegeist-2026) — The Decision Firewall for Software Teams
-*Built for **Atlassian Codegeist 2026** (Jira Cloud & Forge Platform)*
+## Engineering Evidence (numbers with limits)
 
-* **The Problem**: Large-scale agile teams suffer from blind dependency breaks, uncoordinated release merges, and cascading blocker chains.
-* **The Solution**: An in-process Decision Firewall for Jira Cloud that intercepts proposed architectural changes, simulates transitive dependency graphs, and blocks high-risk disruptions before commits occur.
-* **Key Innovations**:
-  * **CORE 0.2.0 Engine**: High-speed deterministic graph simulator evaluating cycles, transitive blockers, and blast radiuses (100 nodes evaluated in ~18 ms).
-  * **Prevention Passport**: Cryptographically hash-bound approval contracts ensuring plans cannot drift between sign-off and execution.
-  * **Atlassian Rovo MCP Integration**: 3 read-only Model Context Protocol tools enabling Atlassian Rovo AI agents to audit dependency health.
-* **Stack**: `TypeScript`, `React`, `Atlassian Forge`, `Zod`, `Vitest`, `Playwright`, `Tailwind CSS`.
+- OpenBridge: 2115 green at `origin/main 2351308` — [RELEASE_STATUS.md](https://raw.githubusercontent.com/toskaman/openbridge/main/docs/RELEASE_STATUS.md). Limit: rev-pinned; re-verify at head `a5e8208`.
+- OpenBridge: 37 first-party evidence records (28 + 7 + 2) — [README](https://raw.githubusercontent.com/toskaman/openbridge/main/README.md). Limit: first-party records; one row notes no committed transcript.
+- OpenBridge CI: latest inspected run `41524974983` (2 Nov 2026) succeeded on branch `release/absolute-final`, not main head — [Actions](https://api.github.com/repos/toskaman/openbridge/actions/runs?per_page=3).
+- Anticipate CI: green on main `5e45ed5` (PR #33) — [Actions](https://api.github.com/repos/toskaman/anticipate-codegeist-2026/actions/runs?per_page=5). Limit: frontend builds only.
+- OpenKF: 671 solo headless / 95–99 live / 0.14s load / PresentMon 236-vs-120 — [BENCHMARKS.md](https://raw.githubusercontent.com/toskaman/OpenKF/main/docs/BENCHMARKS.md). Limits: gitignored raw outputs; CPU model/cores undisclosed; v1.9.0 data under v1.10.0 header.
+- Orpane: 2-file bit-exact round-trip — [tree](https://api.github.com/repos/toskaman/orpane-proof-package/git/trees/main?recursive=1). Limit: 2 files only.
+- Freenekit v1.0.0: 112,501,277-byte asset (28 Jul 2026) scanned clean on release day by Jotti 0/13, byte-exact — [releases](https://api.github.com/repos/toskaman/Freenekit/releases) and [Jotti](https://virusscan.jotti.org/en-US/filescanjob/b9imgyg8w6). Limit: version-pinned hygiene, not ongoing certification.
+- RBX Manager 2: 800x600 to 320x240 is 84% fewer pixels (arithmetic holds) — [showcase](https://toskaman.github.io/RBX-Manager-2/). Limit: VRAM-load extrapolation, Byfron/Hyperion safety, and VirusTotal 0/72 are author claims without vendor or linkable-report attestation.
 
----
+<details>
+<summary>How to read these numbers</summary>
 
-### 3. ⚡ [OpenKF](https://github.com/toskaman/OpenKF) — Clean-Room Native 64-Bit Killing Floor Client
-*High-performance modern game client in Rust with custom Vulkan renderer*
+Each figure links to the file or run it comes from. Revision-pinned means the number was true at that commit, not necessarily at head. Self-reported means maintainer-measured without third-party attestation. First-party records means the evidence log was written by the project owner. I keep the limits next to the numbers on purpose.
 
-* **Clean-Room Engineering**: Completely fresh 64-bit implementation interfacing directly with retail Unreal Engine 2.5 (v1065) servers and assets without reusing retail binaries.
-* **Technical Feats**:
-  * **671 FPS vs 120 FPS Engine Cap**: Bypasses retail engine bottleneck, achieving 671 FPS solo and 236 presented FPS during heavy 155-actor multiplayer waves on RTX 4060 Ti.
-  * **Sub-Second Map Loading (0.14 s)**: 24x faster than retail (3.32 s) using memory-mapped package parsing and shared GPU mesh pooling.
-  * **Full Multiplayer Protocol**: Clean-room implementation of Unreal network replication, Steam authentication, RPC dispatch, and FastDL (`.uz2`) background streaming.
-  * **Advanced Audio & Physics**: 2,839/2,839 custom game sounds decoded without fault; articulated Karma multi-body ragdolls and surface-projected decals.
-* **Stack**: `Rust`, `Vulkan (ash)`, `Winit`, `Symphonia`, `PresentMon`, `GameSpy Protocol`.
+</details>
 
----
+## Additional Projects
 
-### 4. 🛰️ [BridgeWindows-v4](https://github.com/toskaman/BridgeWindows-v4) — Hardened Multi-PC Remote Agent & Wire Protocol
-*Scalable, resilient reverse-TCP administration agent for heterogeneous clusters*
+- **RBX Manager 2** — Windows multi-account manager with micro-windows, per-account FPS caps, and a cookie vault. Showcase: [site](https://toskaman.github.io/RBX-Manager-2/) · Repo: [toskaman/RBX-Manager-2](https://github.com/toskaman/RBX-Manager-2). Notes: no LICENSE file (all rights reserved by default); binaries distributed via Discord; public tag `v1.9.34.1` trails badge text; independent utility, not affiliated with Roblox Corporation.
+- **BridgeWindows-v4** — master PC administers up to 8 Windows/Linux PCs over LAN via authenticated reverse-TCP agents; custom v4 mutual-HMAC wire protocol; 5-target C agent matrix with staged binaries and SHA256SUMS. Repo: [toskaman/BridgeWindows-v4](https://github.com/toskaman/BridgeWindows-v4). Notes: no releases/tags; E2E 23/23 and self-test are README-reported; ARM64 targets compile-only (no hardware on hand, honestly scoped); no LICENSE file.
+- **Freenekit** — Electron + React Windows desktop app for Freebox OS monitoring (line rates, per-process bandwidth, LAN devices, Wi-Fi analysis, MAC-alarm, NAT presets, call logs, reboot, systray). Repo: [toskaman/Freenekit](https://github.com/toskaman/Freenekit) · Release: [v1.0.0](https://api.github.com/repos/toskaman/Freenekit/releases). Notes: full Freebox API pairing + HMAC-SHA1 sessions; model/API-compat list is maintainer-reported; no LICENSE file; donationware.
 
-* **Architecture**: A central master administers up to 8 concurrent Windows and Linux PCs over low-latency reverse-TCP connections.
-* **Security & Auth**:
-  * **Zero Secrets on Wire**: Mutual 4-step handshake proving pre-shared key (PSK) knowledge via HMAC-SHA256 (RFC 4231 test vectors) with mutual nonces.
-  * **Per-Frame Session MACs**: Every payload is sealed with a unique session key derived from `SHA256(psk || agent_nonce || master_nonce)`.
-* **3D Particle Voice Orb**:
-  * Real-time audio/network-reactive particle sphere with Siri-style ribbons blitted into 32-bit DIBs via Windows GDI (or 24-bit unicode half-blocks on headless Linux terminals).
-* **Test Verification**: 23/23 end-to-end tests passing (100%), including hot binary self-update and seamless auto-reconnect.
-* **Stack**: `C/C++`, `Win32 API / GDI`, `Linux Musl`, `Python`, `HMAC-SHA256`, `Zig Cross-Toolchain`.
+## How I Engineer
 
----
+- Written specs before code; docs ship with the change.
+- Tests and CI where they pay off; counts reported at pinned revisions.
+- Method notes next to every benchmark; limits stay visible.
+- Small, reviewable changes; honest scoping when hardware or access is missing.
+- No fake badges, no invented metrics, no borrowed logos.
 
-### 5. 📡 [Freenekit](https://github.com/toskaman/Freenekit) — Real-Time Network & Freebox OS Monitor for Windows
-*Desktop network telemetry & infrastructure controller for Freebox OS*
+## About
 
-* **High-Speed Monitoring**: Second-by-second throughput tracking for 10 Gbps Wi-Fi 7 connections (Freebox Ultra, Delta, Pop, Révolution).
-* **Per-Process Bandwidth Breakdown**: Live attribution of downstream/upstream network traffic mapped directly to active Windows TCP connections (Chrome, Discord, Steam, games).
-* **Security & Intrusion Alarms**: Native Windows toast notifications triggered on unrecognized MAC addresses joining the local subnet.
-* **100% VirusTotal Clean**: 0/72 security detections on official binary release with full reproducible build scripts.
-* **Stack**: `TypeScript`, `Electron`, `Vite`, `Freebox OS REST API (HMAC-SHA1)`, `Windows IP Helper API`.
+I'm MSDOS10, an independent engineer working in English with buyers and collaborators internationally. I'm autistic; I work best with clear written requirements and async communication, and I put the same preference into my docs: explicit steps, stated limits, no guessing. Outside contracts I maintain the projects above and keep their evidence trails current.
 
----
+## Commercial Opportunities
 
-### 6. 🎮 [RBX-Manager-2](https://github.com/toskaman/RBX-Manager-2) — High-Performance Roblox Account Manager (RAM)
-*Leading multi-instance manager powering an active community of 10,000+ power users*
+Open to licensing and strategic acquisition discussions, subject to rights and terms.
 
-* **Byfron / Hyperion Anti-Cheat Integrity**: Closes the application mutex safely via native Win32 `DuplicateHandle` (`DUPLICATE_CLOSE_SOURCE`). **Zero DLL injection, zero memory hooking, 100% anti-cheat compliant**.
-* **320x240 Micro-Window Architecture**: Bypasses the 800x600 window dimension constraint, slumping per-client VRAM load by ~84% to run dozens of farming instances concurrently on consumer GPUs.
-* **Non-Intrusive Background Anti-AFK**: Custom virtual message dispatcher prevents 20-minute inactivity timeouts without stealing physical mouse or keyboard focus.
-* **Enterprise-Grade Security**: Master-password-protected Windows DPAPI hardware-bound encryption for stored credentials.
-* **Stack**: `C#`, `.NET 8/9`, `WPF`, `Win32 API`, `DPAPI`, `Discord Webhooks`.
+- OpenBridge: main-snapshot use-only (PolyForm Strict); MIT scope is the `v0.2.0` tag only. Model-derived artifact terms require legal/ownership review.
+- Anticipate: joint 50/50 ownership; any deal needs both holders' written agreement. Licensing contact for the joint work: info@lepcpro.fr (requires legal/ownership review of entity).
+- OpenKF: GPL-3.0-or-later; retail-interop posture is an author assertion and requires IP review.
+- RBX Manager 2, BridgeWindows-v4, Freenekit: no LICENSE file (all rights reserved by default); terms to be agreed in writing. Requires legal/ownership review.
+- No prices, revenue, clients, or valuations are stated anywhere on this profile. Serious enquiries start with a written description of the intended use.
 
----
+## Contact
 
-### 7. 🗜️ [Orpane Lossless Compressor](https://github.com/toskaman/orpane-proof-package) — Advanced Codec Research
-*Experimental lossless compression codec outperforming industrial benchmarks*
+1. **Email (best for serious enquiries):** toskaman5962+portfolio@gmail.com — [write me](mailto:toskaman5962+portfolio@gmail.com?subject=Enquiry%20via%20GitHub%20profile)
+2. **Discord (quick chat):** `therealcopper` via [invite](https://discord.gg/zNpj8ctH9p)
+3. **Code and portfolio:** [github.com/toskaman](https://github.com/toskaman) · [portfolio](https://toskaman.github.io/msdos/)
 
-* **100% Benchmark Win Rate**: Beats 7-Zip 26.02 `-mx9` across all 53 benchmark files in the standard Silesia corpus (+2.4 MB net saved).
-* **Cryptographic Verification**: Dual SHA-256 and BLAKE3 bit-exact verification ensuring zero data corruption or stream drift.
-* **Published Rust Decompressor**: High-speed, standalone memory-safe decompression runtime published with full proof package.
-* **Stack**: `Rust`, `Python`, `Information Theory`, `ANS / Huffman Entropy Coding`, `Dictionary Pre-filtering`.
-
----
-
-### 8. ⚔️ Firefall PIN MMO Server — Full Clean-Room Server Reconstruction
-*Private server reconstruction for Firefall on top of the Pirate Intelligence Network base*
-
-* **Scope**: Complete solo reconstruction across 13 distinct phases: Matrix networking protocol, GSS actor replication, weapons combat, vehicle physics, dynamic economy, and guild systems.
-* **Low-Latency Engine**:
-  * **BepuPhysics v2**: High-performance spatial indexing, broadphase collision queries, and tick synchronization.
-  * **4Hz Server AI Loop**: Dynamic behavioral trees and navmesh traversal for hundreds of hostile creatures.
-* **Test Rigor**: 164 unit and integration tests validating packet serialization, movement reconciliation, and state persistence.
-* **Stack**: `C#`, `.NET 9`, `BepuPhysics v2`, `UDP Networking`, `Matrix/GSS Protocol`, `SQLite`.
-
----
-
-### 9. 🏝️ [Luna Bay (RoCrossing)](https://www.roblox.com/games/101873866819894) — Custom Island Simulation & Procedural Animation Engine
-*High-fidelity social simulation built from scratch on Roblox (Place ID: [101873866819894](https://www.roblox.com/games/101873866819894))*
-
-* **The Vision**: Recreate the tactile charm, environmental responsiveness, and multiplayer hospitality of island-life sims (Animal Crossing) inside a strict, zero-bloat custom engine.
-* **Core Technical Architecture**:
-  * **Strict Typing & Modular Architecture**: Built entirely in Luau Strict Mode (`--!strict`) using Rojo for continuous file-system synchronization and version-controlled game assembly.
-  * **128x96 Stepped Voxel Topography**: Custom multi-tier terrain grid with cliff elevations, river carving, ramp navigators, and dynamic grid-aligned tile placement.
-  * **20Hz Batched Wind Simulation**: Environmental foliage, flower sway, and canopy physics driven by batched `workspace:BulkMoveTo` transforms, eliminating individual property write overhead.
-  * **Procedural 6-Joint Character Rig**: Full custom character model with 16 expressive procedural gestures (emotes, tool swings, fishing casts, reactions) decoupled from standard R6/R15 animation bloat.
-  * **Diurnal 24h Real-Time Sync**: Lighting, weather patterns, celestial cycles, and seasonal ambient audio synced seamlessly with real-world UTC timestamps.
-  * **Reserved Server Multiplayer & Crossing Codes**: Ephemeral multiplayer lobbies powered by Roblox `MemoryStoreSortedMap` and 5-character alphanumeric "Crossing Codes" for seamless, zero-friction island visits.
-* **Empirical Performance**: Smooth 60 FPS tick rates across mobile and low-end hardware, zero garbage collector stutter via pre-allocated instance pools.
-* **Stack**: `Luau (--!strict)`, `Rojo`, `BulkMoveTo Vector Physics`, `MemoryStoreService`, `TweenService`, `Roblox Engine`.
-
----
-
-## 🛠️ Core Technical Arsenal
-
-```
-┌─────────────────┬────────────────────────────────────────────────────────────────────────┐
-│ Domain          │ Technologies & Tools                                                   │
-├─────────────────┼────────────────────────────────────────────────────────────────────────┤
-│ Systems & Low-  │ Rust, C/C++, C# (.NET 9), Win32 API, GDI, Linux Musl, Zig, Vulkan     │
-│ Level           │ Memory-Mapped I/O, DPAPI, Multi-threading, Hardware Telemetry          │
-├─────────────────┼────────────────────────────────────────────────────────────────────────┤
-│ AI & Autonomous │ Muse Glimmer 30B, Llama 3.2, Atlassian Rovo MCP, Model Context Protocol│
-│ Fabrics         │ Deterministic Safety Gates, Tool Synthesis, Fingerprint Approval       │
-├─────────────────┼────────────────────────────────────────────────────────────────────────┤
-│ Network & Game  │ Unreal Engine 2.5 Protocol, Matrix/GSS, Reverse-TCP v4, HMAC-SHA256    │
-│ Protocols       │ BepuPhysics v2, Luau (--!strict), Rojo, FastDL (.uz2), GameSpy, REST   │
-├─────────────────┼────────────────────────────────────────────────────────────────────────┤
-│ Web & Cloud     │ TypeScript, React, Vite, Node.js, Atlassian Forge, Electron, Tailwind  │
-├─────────────────┼────────────────────────────────────────────────────────────────────────┤
-│ Quality & QA    │ Vitest, Playwright, PresentMon, SHA-256/BLAKE3 Verification, GitHub CI │
-└─────────────────┴────────────────────────────────────────────────────────────────────────┘
-```
-
----
-
-## 💼 Project Acquisition, Licensing & Senior Hiring
-
-Are you looking for an experienced engineer who can solve intractable low-level problems, design resilient device fabrics, or build native high-throughput engines?
-
-### What I Offer:
-1. **Commercial Asset Licensing & Acquisition**:
-   * Licensing rights, white-label versions, or source code acquisition for **OpenKF**, **Luna Bay**, **RBX-Manager-2**, **BridgeWindows-v4**, or the **Orpane Codec**.
-2. **Senior Staff / Principal Engineering Roles**:
-   * Available for high-impact roles in Systems Engineering, Low-Level Architecture, Game Engine Development, and AI Infrastructure.
-3. **Specialized Technical Consulting**:
-   * Protocol reverse-engineering, anti-cheat compatibility audits, high-throughput network architectures, and custom Windows/Linux driver/agent development.
-
-### 📬 Get in Touch
-
-<div align="center">
-
-[![Email](https://img.shields.io/badge/Direct_Email-toskaman5962%2Bportfolio%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:toskaman5962+portfolio@gmail.com)
-[![Discord](https://img.shields.io/badge/Discord_Direct-therealcopper-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/zNpj8ctH9p)
-[![Portfolio](https://img.shields.io/badge/Explore_Portfolio-Interactive_Showcase-00f2ff?style=for-the-badge&logo=googlechrome&logoColor=white)](https://toskaman.github.io/msdos/)
-
-**Fastest response via Discord (`therealcopper`) or direct Email.**
-
-</div>
+<img alt="Section divider: thin graphite rule with small cyan mark" src="assets/divider.svg" width="100%" />

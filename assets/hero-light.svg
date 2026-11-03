@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img">
+  <title>MSDOS10 light hero</title>
+  <rect width="1280" height="320" fill="#EDF2F7"/>
+  <rect x="64" y="48" width="1152" height="224" rx="12" fill="#FFFFFF" stroke="#172235" stroke-width="2"/>
+  <rect x="64" y="48" width="1152" height="4" rx="2" fill="#172235"/>
+  <rect x="64" y="52" width="180" height="4" fill="#46D6CF"/>
+  <text x="104" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="700" fill="#0B1120">MSDOS10</text>
+  <text x="104" y="200" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#172235">Independent Systems &amp; Applied AI Engineer</text>
+  <text x="104" y="236" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#172235">automation · integrations · documented tools</text>
+  <rect x="1020" y="96" width="160" height="128" rx="8" fill="none" stroke="#172235" stroke-width="3"/>
+  <text x="1100" y="175" font-family="Segoe UI, Arial, sans-serif" font-size="44" font-weight="700" fill="#0B1120" text-anchor="middle">M10</text>
+</svg>
