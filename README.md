@@ -111,6 +111,6 @@ Open to licensing and strategic acquisition discussions, subject to rights and t
 
 1. **Email (best for serious enquiries):** toskaman5962+portfolio@gmail.com — [write me](mailto:toskaman5962+portfolio@gmail.com?subject=Enquiry%20via%20GitHub%20profile)
 2. **Discord (quick chat):** `therealcopper` via [invite](https://discord.gg/zNpj8ctH9p)
-3. **Code and portfolio:** [github.com/toskaman](https://github.com/toskaman) · [portfolio](https://toskaman.github.io/msdos/)
+3. **Code and portfolio:** [github.com/toskaman](https://github.com/toskaman) · [portfolio](https://toskaman.github.io/)
 
 <img alt="Section divider: thin graphite rule with small cyan mark" src="assets/divider.svg" width="100%" />
