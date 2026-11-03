@@ -4,7 +4,7 @@
   <img alt="MSDOS10 — Independent Systems and Applied AI Engineer banner" src="assets/hero-light.svg" width="100%" />
 </picture>
 
-# Hi, I'm MSDOS10 (toskaman)
+# Hi, I'm MSDOS10
 
 **Independent Systems & Applied AI Engineer.** I design automation, integrations, and AI-assisted workflows that ship with documentation and honest evidence.
 
