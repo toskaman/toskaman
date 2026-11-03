@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img">
-  <title>MSDOS10 mark</title>
-  <rect width="256" height="256" rx="28" fill="#172235"/>
-  <rect x="0" y="0" width="256" height="10" rx="5" fill="#46D6CF"/>
-  <text x="128" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="700" fill="#EDF2F7" text-anchor="middle">M10</text>
-  <text x="128" y="192" font-family="Segoe UI, Arial, sans-serif" font-size="22" fill="#A8B6C8" text-anchor="middle">MSDOS10</text>
-</svg>
