@@ -79,8 +79,22 @@ Every figure below names its source revision and limit. Self-reported means the 
 
 - **AMD ROCm™ Certified Associate** — earned 5 Nov 2026.
 
+## Hackathons 2026
+
+Participations only — no award is claimed; results are announced after judging.
+
+| Event | Organizer | Period | Entry |
+|---|---|---|---|
+| [Codegeist 2026](https://codegeist2026.devpost.com/) | Atlassian | Oct – Dec 2026 | [Anticipate](https://github.com/toskaman/anticipate-codegeist-2026) (joint 50/50 with Orphee) |
+| [QNX Global Hackathon](https://qnx.devpost.com/) | QNX (BlackBerry) | Nov – Dec 2026 | [GENESIS RT](https://github.com/toskaman/genesis-rt) |
+| [Vultr: Agent Rush Hackathon](https://lablab.build/ai-hackathons/vultr-hackathon) | Vultr × lablab | Nov 2026 | participant |
+| [AMD AI League](https://lablab.build/ai-hackathons/amd-lablab-ai-academy-challenge) | AMD × lablab | Sep – Dec 2026 | participant |
+| Meta AI devices | Meta | Oct – Nov 2026 | [OpenBridge](https://github.com/toskaman/openbridge) |
+| UGREEN AI NAS Hackathon 2026 | UGREEN | Nov 2026 | [PHOENIX](https://github.com/toskaman/UGREEN-PHOENIX) (round 1 submitted; real NAS run not tested yet) |
+
 ## Additional Work
 
+- **PHOENIX** — recovery-readiness Skill for UGREEN AI NAS (UGREEN AI NAS Hackathon 2026, round 1): three on-device agents check whether a project's docs and files are enough to resume work, with cited evidence and fixed labels (FOUND / CONFLICTING / NOT FOUND IN SCOPE / UNKNOWN). Official checker static-pass (0 errors, 0 warnings) and 31/31 local workflow checks; real NAS runtime not tested yet. [Repository](https://github.com/toskaman/UGREEN-PHOENIX)
 - **BridgeWindows v4** — authenticated Windows bridge: v4 HMAC mutual-auth protocol + 5-target build matrix verified; binaries + SHA256SUMS staged in-repo. Test figures (23/23 E2E, RFC-4231 self-test, 10/10 multi-agent) are self-reported and the README tests section is one commit behind head. Trusted-LAN-only (authenticated-but-plaintext). No releases, no licence file. [Repository](https://github.com/toskaman/BridgeWindows-v4)
 - **RBX-Manager-2** — Roblox multi-account manager (10 stars, most-starred repo). Pixel arithmetic verified (800x600 vs 320x240 ≈ 84% fewer pixels); Byfron/Hyperion-safety and zero-injection are author claims without vendor attestation; no linkable VirusTotal report found (badge claim is author-stated). Binaries via Discord only. No licence file; latest public tag v1.9.34.1. [Repository](https://github.com/toskaman/RBX-Manager-2)
 - **Freenekit** — Freebox companion app (Electron/React): v1.0.0 released on GitHub; per-model compatibility list self-reported. README claims MIT but no licence text ships in the repo — confirm in writing before reuse. Idea credit: Thibault Henry (Freenetic). [Repository](https://github.com/toskaman/Freenekit)
