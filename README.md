@@ -19,25 +19,31 @@
 
 ### 1. OpenBridge — automation bridge with a pinned evidence trail
 
-Cross-device automation with a documented test suite and device record set: **2,115 tests green** (2 Nov 2026 — see the linked release status for the pinned revision) and **37 device evidence rows, all VERIFIED** (28 real hardware, 7 full guest OS, 2 official platform emulators). CI green on main. Licence: PolyForm Strict 1.0.0 on current main (use-only); the historical v0.2.0 tag snapshot is MIT.
+**2,115 tests green** and **37/37 device evidence rows VERIFIED** (2 Nov 2026; pinned revision in the release status). CI green on main. PolyForm Strict 1.0.0 on current main; historical v0.2.0 tag snapshot is MIT.
 
 - [Repository](https://github.com/toskaman/openbridge) · [Release status](https://github.com/toskaman/openbridge/blob/main/docs/RELEASE_STATUS.md) · [Device evidence](https://github.com/toskaman/openbridge/blob/main/docs/DEVICE_EVIDENCE.json)
 
-### 2. Anticipate — Jira decision firewall (Codegeist 2026 entry)
+### 2. GENESIS RT — proof-driven development platform for QNX
 
-Atlassian Forge app that screens Jira changes before they land: risk scoring, drift refusal, and validator checks. Honest scope notes: UI screenshots are mock-transport captures (no live Forge captures published); hosted-run figures are self-reported without third-party attestation; Rovo answers are dev-site, admin-gated; the similarly-named share target is not configured (prototype adapter only). Test counts differ between docs (STATUS.md vs Devpost draft — unresolved, see Evidence). Joint 50/50 ownership with Orphee — any licence, sale, or transfer needs both holders' written agreement; licensing enquiries: info@lepcpro.fr.
+Compiles constrained machine intent into QNX-native real-time software, tests it against injected failures, and produces inspectable engineering evidence. QNX Global Hackathon entry (in progress, deadline 15 Dec 2026). Licence: Apache-2.0.
+
+- [Repository](https://github.com/toskaman/genesis-rt)
+
+### 3. Anticipate — Jira decision firewall (Codegeist 2026 entry)
+
+Atlassian Forge app screening Jira changes before they land: risk scoring, drift refusal, validator checks. Scope notes: mock-transport UI captures, self-reported hosted figures, dev-site Rovo; test counts differ between docs (see Evidence). Joint 50/50 with Orphee — deals via info@lepcpro.fr.
 
 - [Repository](https://github.com/toskaman/anticipate-codegeist-2026) · [Status](https://github.com/toskaman/anticipate-codegeist-2026/blob/main/docs/STATUS.md) · [Evidence pack](https://github.com/toskaman/anticipate-codegeist-2026/blob/main/docs/evidence/EVIDENCE_PACK.md)
 
-### 3. OpenKF — native game-client interop (Rust)
+### 4. OpenKF — native game-client interop (Rust)
 
-Clean-room-asserted native client with documented headless benchmarks: 671 fps solo headless, 0.14 s load, PresentMon 236-vs-120 against the retail 120 cap — with same-GPU contamination and version-header caveats disclosed in the doc. Raw bench outputs are gitignored by design; CPU details live in the raw JSON. Requires the user's own licensed game copy v1065; no game content redistributed. Licence: GPL-3.0-or-later. No releases published yet.
+Clean-room-asserted client, 671 fps solo headless, 0.14 s load (disclosed caveats in doc). Requires your own licensed game copy v1065. GPL-3.0-or-later. No releases yet.
 
 - [Repository](https://github.com/toskaman/OpenKF) · [Benchmarks](https://github.com/toskaman/OpenKF/blob/main/docs/BENCHMARKS.md)
 
-### 4. Orpane — compression proof package (Rust)
+### 5. Orpane — compression proof package (Rust)
 
-Bit-exact round-trip **verified for the 2 shipped files** (decompressed SHAs match originals); 7-Zip 26.02 control sizes match the log tables. Broader win-rate claims (60-stream / 53-stream sets) are self-reported — no raw data beyond the 2 files — and the docs carry flag, size, and version inconsistencies (see Evidence). Closed encoder, source-visible decoder. Unlicensed: all rights reserved, evaluation only under written terms.
+Bit-exact round-trip verified for the 2 shipped files; broader win-rate claims self-reported (see Evidence). Closed encoder, source-visible decoder. Unlicensed: evaluation only under written terms.
 
 - [Repository](https://github.com/toskaman/orpane-proof-package) · [Benchmark report](https://github.com/toskaman/orpane-proof-package/blob/main/BENCHMARK_REPORT.md)
 
