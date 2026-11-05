@@ -67,6 +67,12 @@ Every figure below names its source revision and limit. Self-reported means the 
 
 </details>
 
+## Certifications
+
+<img src="assets/rocm-certified-associate.png" alt="AMD ROCm Certified Associate badge" width="200" />
+
+- **AMD ROCm™ Certified Associate** — earned 5 Nov 2026.
+
 ## Additional Work
 
 - **BridgeWindows v4** — authenticated Windows bridge: v4 HMAC mutual-auth protocol + 5-target build matrix verified; binaries + SHA256SUMS staged in-repo. Test figures (23/23 E2E, RFC-4231 self-test, 10/10 multi-agent) are self-reported and the README tests section is one commit behind head. Trusted-LAN-only (authenticated-but-plaintext). No releases, no licence file. [Repository](https://github.com/toskaman/BridgeWindows-v4)
