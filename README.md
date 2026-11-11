@@ -1,132 +1,91 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/msdos10-hero-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/msdos10-hero-light.svg" />
-  <img src="assets/msdos10-hero-static.svg" alt="MSDOS10 — Engineering beyond boundaries" width="100%" />
-</picture>
+<img src="assets/mark.svg" width="44" height="44" alt="MSDOS10" />
 
-# Hi, I'm MSDOS10
+# MSDOS10
 
-**Independent Multidisciplinary Engineer & Technology Creator.** I build automation, integrations, and applied-AI workflows — with evidence and honest limits.
+**Independent Software & Systems Engineer**
 
-## What I Build
+I build software that has to hold up on real machines: automation across devices that were never meant to cooperate, applied AI with a gate around the model, and native systems with a measurement beside the claim.
 
-- **Automation & integrations** — device bridges, cross-system tooling, and workflows that ship (OpenBridge, BridgeWindows).
-- **Applied AI decision support** — a Jira decision firewall on Atlassian Forge (Anticipate — joint 50/50 with Orphee). [![Applied AI: Jira decision firewall](https://img.shields.io/badge/Applied_AI-Jira_decision_firewall-0E7490?style=flat-square&labelColor=2B2F33&color=0E7490&logo=github&logoColor=white)](https://github.com/toskaman/anticipate-codegeist-2026)
-- **Native & performance work** — Rust clients and compression research with noted benchmarks (OpenKF, Orpane). [![Native and Perf: bench-noted clients](https://img.shields.io/badge/Native_%26_Perf-bench--noted_clients-0E7490?style=flat-square&labelColor=2B2F33&color=0E7490&logo=rust&logoColor=white)](https://raw.githubusercontent.com/toskaman/OpenKF/main/docs/BENCHMARKS.md)
-- **Community tooling** — Roblox multi-account tooling and a Freebox companion app (RBX-Manager-2, Freenekit).
+Automation · Applied AI · Native systems
 
-## Featured Work
+[Portfolio](https://toskaman.github.io/) · [Contact](#contact)
 
-### 1. OpenBridge — automation bridge with a pinned evidence trail
+## Selected work
 
-**2,115 tests green** and **37/37 device evidence rows VERIFIED** (2 Nov 2026; pinned revision in the release status). CI green on main. PolyForm Strict 1.0.0 on current main; historical v0.2.0 tag snapshot is MIT.
+### [OpenBridge](https://github.com/toskaman/openbridge)
 
-- [Repository](https://github.com/toskaman/openbridge) · [Release status](https://github.com/toskaman/openbridge/blob/main/docs/RELEASE_STATUS.md) · [Device evidence](https://github.com/toskaman/openbridge/blob/main/docs/DEVICE_EVIDENCE.json)
+Connects devices that were never built to work together, and runs an action only after validation, approval, and a read-back.
 
-### 2. GENESIS RT — proof-driven development platform for QNX
+Showcased runs are labeled as hardware, a virtual machine, an emulator, or a simulation.
 
-Compiles constrained machine intent into QNX-native real-time software, tests it against injected failures, and produces inspectable engineering evidence. QNX Global Hackathon entry (in progress, deadline 15 Dec 2026). Licence: Apache-2.0.
+Release [v0.3.2](https://github.com/toskaman/openbridge/releases/tag/v0.3.2). The device log records 37 verified rows: 28 on real hardware, 7 on guest VMs, 2 on official emulators. CI on main was green on 9 Nov 2026. PolyForm Strict 1.0.0.
 
-- [Repository](https://github.com/toskaman/genesis-rt)
+[Evidence](https://github.com/toskaman/openbridge/blob/main/docs/DEVICE_EVIDENCE.json) · [Demo](https://youtu.be/TZaxCcRmrLQ)
 
-### 3. Anticipate — Jira decision firewall (Codegeist 2026 entry)
+### [GENESIS RT](https://github.com/toskaman/genesis-rt)
 
-Atlassian Forge app screening Jira changes before they land: risk scoring, drift refusal, validator checks. Scope notes: mock-transport UI captures, self-reported hosted figures, dev-site Rovo; test counts differ between docs (see Evidence). Joint 50/50 with Orphee — deals via info@lepcpro.fr.
+Turns a constrained machine description into QNX-native control software, injects faults, and writes a verdict that can be checked offline.
 
-- [Repository](https://github.com/toskaman/anticipate-codegeist-2026) · [Status](https://github.com/toskaman/anticipate-codegeist-2026/blob/main/docs/STATUS.md) · [Evidence pack](https://github.com/toskaman/anticipate-codegeist-2026/blob/main/docs/evidence/EVIDENCE_PACK.md)
+A requirement change should leave a trace, not a screenshot.
 
-### 4. OpenKF — native game-client interop (Rust)
+The repository reports 16/16 on the current on-target matrix, QNX 8 in QEMU x86_64. Host CI was green on 10 Nov 2026. No physical board. No safety certification. [Apache-2.0](https://github.com/toskaman/genesis-rt/blob/main/LICENSE).
 
-Clean-room-asserted client, 671 fps solo headless, 0.14 s load (disclosed caveats in doc). Requires your own licensed game copy v1065. GPL-3.0-or-later. No releases yet.
+[Claims](https://github.com/toskaman/genesis-rt/blob/main/docs/CLAIMS.md)
 
-- [Repository](https://github.com/toskaman/OpenKF) · [Benchmarks](https://github.com/toskaman/OpenKF/blob/main/docs/BENCHMARKS.md)
+### [Anticipate](https://github.com/toskaman/anticipate-codegeist-2026)
 
-### 5. Orpane — compression proof package (Rust)
+Checks a risky Jira change before it ships: what depends on it, which option is safer, and whether the evidence is still the evidence that was approved.
 
-Bit-exact round-trip verified for the 2 shipped files; broader win-rate claims self-reported (see Evidence). Closed encoder, source-visible decoder. Unlicensed: evaluation only under written terms.
+Built for the ticket that looks local and breaks something two links away.
 
-- [Repository](https://github.com/toskaman/orpane-proof-package) · [Benchmark report](https://github.com/toskaman/orpane-proof-package/blob/main/BENCHMARK_REPORT.md)
+Atlassian Forge app. Recorded as production 4.3.0 on the owner's Jira site, 10 Nov 2026, with CI green on that main revision. Codegeist 2026 entry. No award is announced. Joint work with Orphee.
 
-## Engineering Evidence — numbers with limits
+[Evidence](https://github.com/toskaman/anticipate-codegeist-2026/blob/main/docs/evidence/EVIDENCE_PACK.md)
 
-[![Independent: evidence-led builds](https://img.shields.io/badge/Independent-evidence--led_builds-0E7490?style=flat-square&labelColor=2B2F33&color=0E7490&logo=github&logoColor=white)](https://github.com/toskaman/toskaman#engineering-evidence-numbers-with-limits)
+## Other work
 
-Every figure below names its source revision and limit. Self-reported means the author's measurement without independent attestation.
+**[OpenKF](https://github.com/toskaman/OpenKF)** — 64-bit Killing Floor client in Rust: retail protocol, Vulkan, Steam auth. One author-measured headless run on 30 Oct 2026 reported 671 fps and a 0.14 s load on an RTX 4060 Ti; the retail client was at its 120 fps cap. [Method and limits](https://github.com/toskaman/OpenKF/blob/main/docs/BENCHMARKS.md). GPL-3.0. Requires a licensed copy of the game.
 
-- **OpenBridge: 2,115 tests green** (2 Nov 2026; pinned revision in RELEASE_STATUS.md; unmerged branches claim higher counts — not cited here).
-- **OpenBridge: 37/37 device rows VERIFIED** (28 + 7 + 2 split; caveats in-file: watch row has no transcript; several rows n=1 / oracle-only). Framed as records, not 37 unique physical capabilities.
-- **OpenBridge: CI green on main** (2 Nov 2026; no award claimed — hackathon entry only, finals pending at time of writing).
-- **Anticipate: test counts contradictory** — STATUS.md says 72 backend + 11 simulation + 3 contracts (+60 frontend) while the Devpost draft says 43 backend + 10 engine + 3 contract tests. CI core job runs backend + contracts + simulation; frontend job is build-only.
-- **Anticipate: benchmark P=R=1.00** vs an independent brute-force oracle on 200 local synthetic graphs (2 Nov, owner PC, Node 24.22.1) — narrow scope, not a real-world ratio.
-- **OpenKF: 671 fps solo headless / 0.14 s load / 236-vs-120 PresentMon** with disclosed caveats (retail 120 hard cap, same-GPU run, v1.9.0 data under v1.10.0 header, raw outputs gitignored).
-- **Orpane: 2-file round-trip verified; wider claims self-reported** (shipped-vs-log size deltas, Zstd -22 vs -19, 7-vs-5 codec lists, decoder byte-size drift, benchmark input larger than shipped input — all disclosed in the evidence report).
-- **Freenekit: Jotti 0/13 independent scan on release day** (v1.0.0 zip, 28 Jul 2026) — version-pinned, not ongoing certification. VirusTotal link hash matches the release MD5; verdict text unconfirmed.
+**[Orpane](https://github.com/toskaman/orpane-proof-package)** — Lossless compression with a public bit-exact check against reference codecs. The encoder is closed, the ratio figures are author-measured, and the repository has no licence file.
 
-<details>
-<summary>Methods and revisions</summary>
+**[Freenekit](https://github.com/toskaman/Freenekit)** — Windows monitor for a Freebox: bandwidth and network state. Release [v1.0.0](https://github.com/toskaman/Freenekit/releases/tag/v1.0.0). No licence file in the repository.
 
-- OpenBridge figures: main-branch README + RELEASE_STATUS.md + DEVICE_EVIDENCE.json (recounted row by row); CI status from the repo Actions page.
-- Anticipate figures: STATUS.md, EVIDENCE_PACK.md, DEVPOST_DRAFT.md, UI_VISUAL_QA.md, ci.yml on main — contradictions preserved, not smoothed.
-- OpenKF figures: docs/BENCHMARKS.md interim section + README Legal; .gitignore confirms /output/ excluded by design.
-- Orpane figures: LOG.md + README + BENCHMARK_REPORT.md + file tree + decoder Cargo.toml; round-trip SHAs recomputed from the tree.
-- Freenekit figures: v1.0.0 release page + Jotti report + README + package.json.
+**[BridgeWindows](https://github.com/toskaman/BridgeWindows-v4)** — Multi-PC agent bridge with an HMAC handshake. The channel is authenticated and still plaintext, for a trusted LAN. No GitHub release and no licence file.
 
-</details>
+**[PHOENIX](https://github.com/toskaman/UGREEN-PHOENIX)** — Recovery checks for a UGREEN NAS project, using fixed evidence labels. The official static checker passed. A run on real NAS hardware is not in the repository yet.
 
-## Certifications
+## Range
 
-<img src="assets/rocm-certified-associate.png" alt="AMD ROCm Certified Associate badge" width="200" />
+**Systems** — Rust, C, C++, Vulkan. Native clients, generated control code, measured runtimes.
 
-- **AMD ROCm™ Certified Associate** — earned 5 Nov 2026.
+**AI and automation** — Local inference, device integration, and a deterministic gate when a model is wrong.
 
-## Hackathons 2026
+**Product engineering** — Python, TypeScript, Electron, Atlassian Forge.
 
-Participations only — no award is claimed; results are announced after judging.
+## Practice
 
-| Event | Organizer | Period | Entry |
-|---|---|---|---|
-| [Codegeist 2026](https://codegeist2026.devpost.com/) | Atlassian | Oct – Dec 2026 | [Anticipate](https://github.com/toskaman/anticipate-codegeist-2026) (joint 50/50 with Orphee) |
-| [QNX Global Hackathon](https://qnx.devpost.com/) | QNX (BlackBerry) | Nov – Dec 2026 | [GENESIS RT](https://github.com/toskaman/genesis-rt) |
-| [Vultr: Agent Rush Hackathon](https://lablab.build/ai-hackathons/vultr-hackathon) | Vultr × lablab | Nov 2026 | participant |
-| [AMD AI League](https://lablab.build/ai-hackathons/amd-lablab-ai-academy-challenge) | AMD × lablab | Sep – Dec 2026 | participant |
-| Meta AI devices | Meta | Oct – Nov 2026 | [OpenBridge](https://github.com/toskaman/openbridge) |
-| UGREEN AI NAS Hackathon 2026 | UGREEN | Nov 2026 | [PHOENIX](https://github.com/toskaman/UGREEN-PHOENIX) (round 1 submitted; real NAS run not tested yet) |
-
-## Additional Work
-
-- **PHOENIX** — recovery-readiness Skill for UGREEN AI NAS (UGREEN AI NAS Hackathon 2026, round 1): three on-device agents check whether a project's docs and files are enough to resume work, with cited evidence and fixed labels (FOUND / CONFLICTING / NOT FOUND IN SCOPE / UNKNOWN). Official checker static-pass (0 errors, 0 warnings) and 31/31 local workflow checks; real NAS runtime not tested yet. [Repository](https://github.com/toskaman/UGREEN-PHOENIX)
-- **BridgeWindows v4** — authenticated Windows bridge: v4 HMAC mutual-auth protocol + 5-target build matrix verified; binaries + SHA256SUMS staged in-repo. Test figures (23/23 E2E, RFC-4231 self-test, 10/10 multi-agent) are self-reported and the README tests section is one commit behind head. Trusted-LAN-only (authenticated-but-plaintext). No releases, no licence file. [Repository](https://github.com/toskaman/BridgeWindows-v4)
-- **RBX-Manager-2** — Roblox multi-account manager (10 stars, most-starred repo). Pixel arithmetic verified (800x600 vs 320x240 ≈ 84% fewer pixels); Byfron/Hyperion-safety and zero-injection are author claims without vendor attestation; no linkable VirusTotal report found (badge claim is author-stated). Binaries via Discord only. No licence file; latest public tag v1.9.34.1. [Repository](https://github.com/toskaman/RBX-Manager-2)
-- **Freenekit** — Freebox companion app (Electron/React): v1.0.0 released on GitHub; per-model compatibility list self-reported. README claims MIT but no licence text ships in the repo — confirm in writing before reuse. Idea credit: Thibault Henry (Freenetic). [Repository](https://github.com/toskaman/Freenekit)
-
-## How I Engineer
-
-Specs before code. Evidence before claims. Limits beside numbers. I work async from clear written requirements, keep revisions pinned and reproducible, and disclose what I could not verify. [![R&D Partnerships: written spec first](https://img.shields.io/badge/R%26D_Partnerships-written_spec_first-0E7490?style=flat-square&labelColor=2B2F33&color=0E7490&logo=gmail&logoColor=white)](mailto:toskaman5962+portfolio@gmail.com?subject=R%26D%20partnership%20via%20GitHub%20profile)
-
-## About
-
-I'm MSDOS10, an independent engineer working across systems, integrations, and applied AI. I'm autistic and do my best work with clear written requirements and async communication. I publish what I can verify and label what I can't.
-
-## Commercial Opportunities
-
-Open to licensing and strategic acquisition discussions, subject to rights and terms. No prices, revenue, clients, or valuations are stated anywhere on this profile. Serious enquiries start with a written description of the intended use.
-
-[![Licensing: ask with use-case](https://img.shields.io/badge/Licensing-ask_with_use--case-0E7490?style=flat-square&labelColor=2B2F33&color=0E7490&logo=gmail&logoColor=white)](mailto:toskaman5962+portfolio@gmail.com?subject=Licensing%20enquiry%20via%20GitHub%20profile)
-[![Acquisition: rights-checked deals only](https://img.shields.io/badge/Acquisition-rights--checked_deals_only-0E7490?style=flat-square&labelColor=2B2F33&color=0E7490&logo=gmail&logoColor=white)](mailto:toskaman5962+portfolio@gmail.com?subject=Acquisition%20discussion%20via%20GitHub%20profile)
-
-- **OpenBridge** — licensing / technology acquisition / R&D on the current revision (PolyForm Strict use-only; MIT scope is the v0.2.0 tag snapshot only).
-- **Anticipate** — joint licensing only, via info@lepcpro.fr; any deal needs both holders' written agreement.
-- **OpenKF** — GPL-compliant licensing / R&D; any acquisition needs IP review (clean-room posture is an author assertion).
-- **Orpane, RBX-Manager-2, BridgeWindows** — unlicensed (all rights reserved); evaluation and deals only under written terms, subject to legal/ownership review.
-- **Freenekit** — confirm the MIT text or relicence in writing first (licence file missing; third-party idea credit), then licensing / integration R&D.
-
-Explore licensing, technology acquisition, and strategic R&D opportunities via the contact channels below.
+- A number stays next to its revision, its method, and its limit.
+- A model may propose. A deterministic check decides.
+- Tests and CI travel with the result.
+- Shared or missing rights are named before any commercial conversation.
 
 ## Contact
 
-- **Email (best):** toskaman5962+portfolio@gmail.com
-- **Discord:** therealcopper via the [community invite](https://discord.gg/zNpj8ctH9p) (community server; email preferred for business)
-- **Profiles:** [GitHub](https://github.com/toskaman) · [Portfolio](https://toskaman.github.io/)
-- **Joint-work licensing (Anticipate only):** info@lepcpro.fr
+For collaboration, licensing, or acquisition, email [toskaman5962+portfolio@gmail.com](mailto:toskaman5962+portfolio@gmail.com).
 
-<img src="assets/msdos10-footer.svg" alt="MSDOS10 signature — Built beyond boundaries" width="100%" />
+[Discord](https://discord.gg/zNpj8ctH9p) — therealcopper. The server is a community. Email is the right channel for work.
+
+AMD ROCm Certified Associate, earned 5 Nov 2026.
+
+<details>
+<summary>Licensing</summary>
+
+- **OpenBridge** — PolyForm Strict 1.0.0 on current main. That licence limits use.
+- **Anticipate** — proprietary, shared 50/50 with Orphee. A deal needs both holders. Write to info@lepcpro.fr.
+- **GENESIS RT** — Apache-2.0.
+- **OpenKF** — GPL-3.0-or-later. The clean-room statement is the author's. Any acquisition needs an IP review, and the game itself is not mine to license.
+- **Orpane, Freenekit, BridgeWindows** — no licence file. Evaluation only, in writing.
+
+Nothing on this page is an offer to sell a right that is shared, missing, or someone else's.
+
+</details>
