@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="MSDOS10">
+  <title>MSDOS10</title>
+  <rect width="64" height="64" rx="8" fill="#171A1F"/>
+  <path d="M16 46 L16 18 L32 34 L48 18 L48 46" fill="none" stroke="#F2F4F6" stroke-width="3" stroke-linejoin="miter" stroke-linecap="square"/>
+  <rect x="16" y="50" width="16" height="3" fill="#8AA0B2"/>
+</svg>
