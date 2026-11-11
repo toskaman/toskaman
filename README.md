@@ -34,7 +34,7 @@ The repository reports 16/16 on the current on-target matrix, QNX 8 in QEMU x86_
 
 ### [Anticipate](https://github.com/toskaman/anticipate-codegeist-2026)
 
-Checks a risky Jira change before it ships: what depends on it, which option is safer, and whether the evidence is still the evidence that was approved.
+Checks a risky Jira change before it ships: what depends on it, which option is safer, and whether that evidence has changed since approval.
 
 Built for the ticket that looks local and breaks something two links away.
 
