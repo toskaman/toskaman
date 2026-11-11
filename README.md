@@ -1,4 +1,4 @@
-<img src="assets/mark.svg" width="44" height="44" alt="MSDOS10" />
+<img src="assets/signature.svg" width="44" height="44" alt="MSDOS10" />
 
 # MSDOS10
 
