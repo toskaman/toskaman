@@ -13,6 +13,8 @@
   &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#selected-work">Selected Work</a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="#hackathons-2026">Hackathons 2026</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#systems--tooling">Systems &amp; Tooling</a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#range--practice">Range &amp; Practice</a>
@@ -38,16 +40,41 @@
 </p>
 
 <p align="center">
-  <sub>
-    <strong>OpenBridge:</strong> <a href="https://github.com/toskaman/openbridge/blob/main/docs/DEVICE_EVIDENCE.json">Evidence</a> · <a href="https://youtu.be/TZaxCcRmrLQ">Demo</a>
-    &nbsp;|&nbsp;
-    <strong>GENESIS RT:</strong> <a href="https://github.com/toskaman/genesis-rt/blob/main/docs/CLAIMS.md">Claims</a>
-    &nbsp;|&nbsp;
-    <strong>Anticipate:</strong> <a href="https://github.com/toskaman/anticipate-codegeist-2026/blob/main/docs/evidence/EVIDENCE_PACK.md">Evidence Pack</a>
-    &nbsp;|&nbsp;
-    <strong>OpenKF:</strong> <a href="https://github.com/toskaman/OpenKF/blob/main/docs/BENCHMARKS.md">Benchmarks &amp; Limits</a>
-  </sub>
+  <strong>OpenBridge:</strong> <a href="https://github.com/toskaman/openbridge/blob/main/docs/DEVICE_EVIDENCE.json">Evidence</a> · <a href="https://youtu.be/TZaxCcRmrLQ">Demo</a>
+  &nbsp;|&nbsp;
+  <strong>GENESIS RT:</strong> <a href="https://github.com/toskaman/genesis-rt/blob/main/docs/CLAIMS.md">Claims</a>
+  &nbsp;|&nbsp;
+  <strong>Anticipate:</strong> <a href="https://github.com/toskaman/anticipate-codegeist-2026/blob/main/docs/evidence/EVIDENCE_PACK.md">Evidence Pack</a>
+  &nbsp;|&nbsp;
+  <strong>OpenKF:</strong> <a href="https://github.com/toskaman/OpenKF/blob/main/docs/BENCHMARKS.md">Benchmarks &amp; Limits</a>
 </p>
+
+<br />
+
+<a id="hackathons-2026"></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/div-hackathons-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/div-hackathons-light.svg" />
+  <img src="assets/div-hackathons-dark.svg" alt="02 — Hackathons 2026" width="100%" />
+</picture>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hackathons-banner-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/hackathons-banner-light.svg" />
+    <img src="assets/hackathons-banner-dark.svg" alt="2026 Hackathon Track Record — 7 Events, 6 Shipped Repos" width="100%" />
+  </picture>
+</p>
+
+| Hackathon | Organizer | Period | Entry &amp; Scope |
+|---|---|---|---|
+| **Meta AI Devices Hackathon** | Meta | Oct – Nov 2026 | [**OpenBridge**](https://github.com/toskaman/openbridge) (`v0.3.2`) — 37/37 verified device rows, CI green |
+| [**Codegeist 2026**](https://codegeist2026.devpost.com/) | Atlassian | Oct – Dec 2026 | [**Anticipate**](https://github.com/toskaman/anticipate-codegeist-2026) (`Prod 4.3.0`) — Jira decision firewall, joint 50/50 w/ Orphee |
+| [**QNX Global Hackathon 2026**](https://qnx.devpost.com/) | QNX (BlackBerry) | Nov – Dec 2026 | [**GENESIS RT**](https://github.com/toskaman/genesis-rt) — 16/16 QEMU x86_64 matrix, host CI green |
+| **PayPal AI Hackathon 2026** | PayPal | Nov 2026 | [**AFTERPACT**](https://github.com/toskaman/afterpact) — Agentic commerce assurance &amp; Flight Recorder |
+| [**Vultr: Agent Rush Hackathon**](https://lablab.build/ai-hackathons/vultr-hackathon) | Vultr × lablab | Nov 2026 | [**REVERSA**](https://github.com/toskaman/reversa) — Self-healing AI operations &amp; Evidence Passport |
+| **UGREEN AI NAS Hackathon 2026** | UGREEN | Nov 2026 | [**PHOENIX**](https://github.com/toskaman/UGREEN-PHOENIX) — Recovery checks (Round 1 submitted; real NAS pending) |
+| [**AMD AI League**](https://lablab.build/ai-hackathons/amd-lablab-ai-academy-challenge) | AMD × lablab | Sep – Dec 2026 | Participant · Earned [**AMD ROCm™ Certified Associate**](https://toskaman.github.io/) (5 Nov 2026) |
 
 <br />
 
@@ -55,7 +82,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/div-more-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="assets/div-more-light.svg" />
-  <img src="assets/div-more-dark.svg" alt="02 — Systems & Tooling" width="100%" />
+  <img src="assets/div-more-dark.svg" alt="03 — Systems & Tooling" width="100%" />
 </picture>
 
 <p align="center">
@@ -76,7 +103,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/div-range-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="assets/div-range-light.svg" />
-  <img src="assets/div-range-dark.svg" alt="03 — Range & Practice" width="100%" />
+  <img src="assets/div-range-dark.svg" alt="04 — Range & Practice" width="100%" />
 </picture>
 
 <p align="center">

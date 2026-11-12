@@ -1,56 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 242" width="1200" height="242" role="img" aria-label="Engineering range, practice and AMD ROCm certification">
-  <rect x="1" y="1" width="1198" height="240" rx="14" fill="#ffffff" stroke="#e2e2df" stroke-width="1.2"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 356" width="900" height="356" role="img" aria-label="Engineering range, practice and AMD ROCm certification">
+  <rect x="1" y="1" width="898" height="354" rx="12" fill="#ffffff" stroke="#dcdcd8" stroke-width="1.2"/>
 
-  <!-- Left: 3 Stack Pillars -->
-  <text x="30" y="34" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700" letter-spacing="1.2" fill="#b45309">TECHNICAL RANGE</text>
+  <!-- Top Section: 3 Stack Pillars -->
+  <text x="26" y="32" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700" letter-spacing="1.2" fill="#b45309">TECHNICAL RANGE</text>
 
-  <!-- Pillar 1 -->
-  <rect x="30" y="50" width="212" height="164" rx="10" fill="#f1f1ef" stroke="#e2e2df" stroke-width="1"/>
-  <text x="46" y="76" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700" fill="#72727b">01 // SYSTEMS</text>
-  <text x="46" y="102" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0c0c0e">Rust · C · C++</text>
-  <text x="46" y="124" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#4e4e56">Vulkan · QNX 8</text>
-  <text x="46" y="152" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#72727b">Native clients, generated</text>
-  <text x="46" y="170" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#72727b">control code &amp; runtimes.</text>
+  <rect x="26" y="46" width="272" height="122" rx="10" fill="#f1f1ef" stroke="#dcdcd8" stroke-width="1"/>
+  <text x="42" y="72" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#686870">01 // SYSTEMS</text>
+  <text x="42" y="98" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="700" fill="#0c0c0e">Rust · C · C++ · Vulkan</text>
+  <text x="42" y="122" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#3f3f46">Native clients, QNX 8 control</text>
+  <text x="42" y="142" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#3f3f46">code &amp; measured runtimes.</text>
 
-  <!-- Pillar 2 -->
-  <rect x="254" y="50" width="212" height="164" rx="10" fill="#f1f1ef" stroke="#e2e2df" stroke-width="1"/>
-  <text x="270" y="76" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700" fill="#72727b">02 // APPLIED AI</text>
-  <text x="270" y="102" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0c0c0e">Local Inference</text>
-  <text x="270" y="124" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#4e4e56">Deterministic Gates</text>
-  <text x="270" y="152" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#72727b">Device fabrics, MCP &amp;</text>
-  <text x="270" y="170" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#72727b">policy-bounded agents.</text>
+  <rect x="314" y="46" width="272" height="122" rx="10" fill="#f1f1ef" stroke="#dcdcd8" stroke-width="1"/>
+  <text x="330" y="72" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#686870">02 // APPLIED AI</text>
+  <text x="330" y="98" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="700" fill="#0c0c0e">Local AI · Policy Gates</text>
+  <text x="330" y="122" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#3f3f46">Device fabrics, MCP &amp; strict</text>
+  <text x="330" y="142" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#3f3f46">deterministic checks.</text>
 
-  <!-- Pillar 3 -->
-  <rect x="478" y="50" width="212" height="164" rx="10" fill="#f1f1ef" stroke="#e2e2df" stroke-width="1"/>
-  <text x="494" y="76" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700" fill="#72727b">03 // PRODUCT</text>
-  <text x="494" y="102" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0c0c0e">Python · TypeScript</text>
-  <text x="494" y="124" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#4e4e56">Electron · Forge</text>
-  <text x="494" y="152" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#72727b">Desktop tools, Jira apps</text>
-  <text x="494" y="170" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" fill="#72727b">&amp; cross-system CLIs.</text>
+  <rect x="602" y="46" width="272" height="122" rx="10" fill="#f1f1ef" stroke="#dcdcd8" stroke-width="1"/>
+  <text x="618" y="72" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#686870">03 // PRODUCT</text>
+  <text x="618" y="98" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="700" fill="#0c0c0e">Python · TS · Forge</text>
+  <text x="618" y="122" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#3f3f46">Electron apps, Jira Forge</text>
+  <text x="618" y="142" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#3f3f46">&amp; cross-system CLIs.</text>
 
-  <!-- Vertical Separator -->
-  <line x1="714" y1="24" x2="714" y2="218" stroke="#e2e2df" stroke-width="1"/>
+  <!-- Bottom Section: Principles + Cert -->
+  <line x1="26" y1="186" x2="874" y2="186" stroke="#dcdcd8" stroke-width="1"/>
+  <text x="26" y="212" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700" letter-spacing="1.2" fill="#15803d">OPERATING PRINCIPLES</text>
 
-  <!-- Right: Engineering Practice & Credential -->
-  <text x="738" y="34" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700" letter-spacing="1.2" fill="#16a34a">OPERATING PRINCIPLES</text>
+  <g font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14.5">
+    <text x="26" y="242" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700" fill="#b45309">01</text>
+    <text x="52" y="242" fill="#0c0c0e">Numbers stay beside revision, method &amp; limit.</text>
 
-  <g font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5">
-    <text x="738" y="64" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#b45309">01</text>
-    <text x="766" y="64" fill="#0c0c0e">Numbers stay beside their revision, method &amp; limit.</text>
+    <text x="466" y="242" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700" fill="#b45309">02</text>
+    <text x="492" y="242" fill="#0c0c0e">Model proposes. Deterministic check decides.</text>
 
-    <text x="738" y="92" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#b45309">02</text>
-    <text x="766" y="92" fill="#0c0c0e">A model may propose. A deterministic check decides.</text>
+    <text x="26" y="272" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700" fill="#b45309">03</text>
+    <text x="52" y="272" fill="#0c0c0e">Tests, read-backs &amp; CI travel with the result.</text>
 
-    <text x="738" y="120" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#b45309">03</text>
-    <text x="766" y="120" fill="#0c0c0e">Tests, read-backs &amp; CI travel with the result.</text>
-
-    <text x="738" y="148" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" fill="#b45309">04</text>
-    <text x="766" y="148" fill="#0c0c0e">Shared or missing rights are named before any deal.</text>
+    <text x="466" y="272" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700" fill="#b45309">04</text>
+    <text x="492" y="272" fill="#0c0c0e">Shared or missing rights named before deals.</text>
   </g>
 
-  <!-- Certification Highlight Bar -->
-  <rect x="738" y="170" width="432" height="44" rx="9" fill="#fef3c7" stroke="#fcd34d" stroke-width="1"/>
-  <circle cx="758" cy="192" r="4.5" fill="#b45309"/>
-  <text x="772" y="196" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#0c0c0e">AMD ROCm™ Certified Associate</text>
-  <text x="1152" y="196" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="600" fill="#b45309">EARNED 5 NOV 2026</text>
+  <rect x="26" y="294" width="848" height="42" rx="9" fill="#fef3c7" stroke="#f59e0b" stroke-width="1"/>
+  <circle cx="46" cy="315" r="4.5" fill="#b45309"/>
+  <text x="60" y="320" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#0c0c0e">AMD ROCm™ Certified Associate</text>
+  <text x="854" y="320" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="700" fill="#b45309">EARNED 5 NOV 2026</text>
 </svg>

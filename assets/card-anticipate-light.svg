@@ -1,40 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 588 224" width="588" height="224" role="img" aria-label="Anticipate — Decision firewall for risky Jira changes">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 248" width="440" height="248" role="img" aria-label="Anticipate — Decision firewall for Jira changes">
   <title>Anticipate</title>
   <defs>
     <linearGradient id="topGlow-light-Anticipate" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#b45309" stop-opacity="0.55"/>
-      <stop offset="50%" stop-color="#16a34a" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#e2e2df" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#b45309" stop-opacity="0.65"/>
+      <stop offset="55%" stop-color="#15803d" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#dcdcd8" stop-opacity="0"/>
     </linearGradient>
   </defs>
 
-  <rect x="1" y="1" width="586" height="222" rx="14" fill="#ffffff" stroke="#e2e2df" stroke-width="1.2"/>
-  <rect x="24" y="1" width="180" height="2" rx="1" fill="url(#topGlow-light-Anticipate)"/>
+  <rect x="1" y="1" width="438" height="246" rx="12" fill="#ffffff" stroke="#dcdcd8" stroke-width="1.2"/>
+  <rect x="22" y="1" width="150" height="2.2" rx="1" fill="url(#topGlow-light-Anticipate)"/>
 
-  <!-- Header -->
-  <text x="26" y="40" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="-0.4" fill="#0c0c0e">Anticipate</text>
-  <g transform="translate(473.9, 20)">
-    <rect x="0" y="0" width="88.2" height="24" rx="6" fill="#f1f1ef" stroke="#e2e2df" stroke-width="1"/><text x="44.1" y="16" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="600" fill="#4e4e56">PROD 4.3.0</text>
+  <text x="22" y="38" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" letter-spacing="-0.3" fill="#0c0c0e">Anticipate</text>
+  <g transform="translate(327.6, 18)">
+    <rect x="0" y="0" width="90.4" height="24" rx="6" fill="#f1f1ef" stroke="#dcdcd8" stroke-width="1"/><text x="45.2" y="16.0" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="600" fill="#3f3f46">PROD 4.3.0</text>
   </g>
 
-  <!-- Subheader / Lang + License -->
-  <circle cx="31" cy="60" r="4" fill="#3178c6"/>
-  <text x="41" y="64" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="600" fill="#4e4e56">TypeScript</text>
-  <text x="41" y="64" dx="84" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11.5" fill="#72727b">· Joint w/ Orphee</text>
+  <circle cx="27" cy="59" r="4" fill="#3178c6"/>
+  <text x="37" y="63" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" fill="#3f3f46">TypeScript · Joint w/ Orphee</text>
 
-  <!-- Tagline -->
-  <text x="26" y="96" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#b45309">Decision firewall for risky Jira changes</text>
+  <text x="22" y="94" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#b45309">Decision firewall for Jira changes</text>
 
-  <!-- Body 2 lines -->
-  <text x="26" y="122" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" fill="#4e4e56">Evaluates dependency blast-radius, surfaces safer paths,</text>
-  <text x="26" y="142" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" fill="#4e4e56">and refuses stale approvals when underlying evidence drifts.</text>
+  <text x="22" y="120" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#3f3f46">Evaluates dependency blast-radius,</text>
+  <text x="22" y="140" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#3f3f46">surfaces safer options, and blocks</text>
+  <text x="22" y="160" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#3f3f46">stale approvals on evidence drift.</text>
 
-  <!-- Bottom Divider + Telemetry Bar -->
-  <line x1="26" y1="168" x2="562" y2="168" stroke="#e2e2df" stroke-width="1"/>
-  <circle cx="32" cy="193" r="3.5" fill="#16a34a"/>
-  <text x="43" y="197" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="500" fill="#4e4e56">Atlassian Forge · Codegeist 2026 entry</text>
+  <line x1="22" y1="188" x2="418" y2="188" stroke="#dcdcd8" stroke-width="1"/>
+  <circle cx="28" cy="216" r="3.5" fill="#15803d"/>
+  <text x="39" y="220" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="500" fill="#3f3f46">Atlassian Forge · Codegeist 2026</text>
 
-  <g transform="translate(487.1, 181)">
-    <rect x="0" y="0" width="74.9" height="24" rx="6" fill="#dcfce7" stroke="#86efac" stroke-width="1"/><text x="37.5" y="16" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="600" fill="#16a34a">CI GREEN</text>
+  <g transform="translate(341.7, 204)">
+    <rect x="0" y="0" width="76.3" height="24" rx="6" fill="#dcfce7" stroke="#4ade80" stroke-width="1"/><text x="38.2" y="16.0" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="600" fill="#15803d">CI GREEN</text>
   </g>
 </svg>

@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 34" width="1200" height="34" role="img" aria-label="SELECTED WORK">
-  <line x1="0" y1="17" x2="1200" y2="17" stroke="#27272a" stroke-width="1"/>
-  <rect x="0" y="5" width="167" height="24" rx="6" fill="#09090b"/>
-  <rect x="0" y="5" width="32" height="24" rx="6" fill="#261c0b" stroke="#5c3f0d" stroke-width="1"/>
-  <text x="16" y="21" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700" fill="#ffb224">01</text>
-  <text x="42" y="21" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="700" letter-spacing="1.2" fill="#a3a3ac">SELECTED WORK</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 38" width="900" height="38" role="img" aria-label="SELECTED WORK">
+  <line x1="0" y1="19" x2="900" y2="19" stroke="#27272a" stroke-width="1"/>
+  <rect x="0" y="6" width="179" height="26" rx="6" fill="#09090b"/>
+  <rect x="0" y="6" width="34" height="26" rx="6" fill="#261c0b" stroke="#6b490e" stroke-width="1"/>
+  <text x="17" y="23.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="700" fill="#ffb224">01</text>
+  <text x="44" y="23.5" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="700" letter-spacing="1.2" fill="#b4b4bd">SELECTED WORK</text>
 </svg>

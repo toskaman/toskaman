@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 588 144" width="588" height="144" role="img" aria-label="Freenekit">
-  <rect x="1" y="1" width="586" height="142" rx="12" fill="#111114" stroke="#27272a" stroke-width="1.2"/>
-  <text x="24" y="34" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="17.5" font-weight="700" letter-spacing="-0.2" fill="#ededef">Freenekit</text>
-  <g transform="translate(449.4, 16)">
-    <rect x="0" y="0" width="114.6" height="24" rx="6" fill="#0b2419" stroke="#165239" stroke-width="1"/><text x="57.3" y="16" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="600" fill="#3ecf8e">RELEASE v1.0.0</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 168" width="440" height="168" role="img" aria-label="Freenekit">
+  <rect x="1" y="1" width="438" height="166" rx="12" fill="#111114" stroke="#27272a" stroke-width="1.2"/>
+  <text x="20" y="36" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18.5" font-weight="700" letter-spacing="-0.2" fill="#ededef">Freenekit</text>
+  <g transform="translate(301.4, 17)">
+    <rect x="0" y="0" width="118.6" height="24" rx="6" fill="#0b2419" stroke="#196143" stroke-width="1"/><text x="59.3" y="16.0" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="600" fill="#3ecf8e">RELEASE v1.0.0</text>
   </g>
-  <text x="24" y="64" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#a3a3ac">Windows desktop monitor for Freebox OS bandwidth &amp; network state.</text>
-  <text x="24" y="84" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" fill="#a3a3ac">Packaged Windows release; no licence file in repository.</text>
-  <line x1="24" y1="102" x2="564" y2="102" stroke="#27272a" stroke-width="1"/>
-  <text x="24" y="123" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#777781">JavaScript / Electron · Windows release v1.0.0</text>
+  <text x="20" y="70" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#b4b4bd">Windows desktop monitor for Freebox OS</text>
+  <text x="20" y="90" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#b4b4bd">bandwidth &amp; network state. Packaged app.</text>
+  <line x1="20" y1="116" x2="420" y2="116" stroke="#27272a" stroke-width="1"/>
+  <text x="20" y="141" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#82828d">JavaScript / Electron · No licence file</text>
 </svg>
