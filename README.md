@@ -1,90 +1,120 @@
-<img src="assets/signature-2.svg" width="44" height="44" alt="MSDOS10" />
+<p align="center">
+  <a href="https://toskaman.github.io/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg" />
+      <img src="assets/hero-dark.svg" alt="MSDOS10 — Independent Systems & Applied AI Engineer" width="100%" />
+    </picture>
+  </a>
+</p>
 
-# MSDOS10
+<p align="center">
+  <a href="https://toskaman.github.io/"><strong>Portfolio ↗</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="#selected-work">Selected Work</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="#systems--tooling">Systems &amp; Tooling</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="#range--practice">Range &amp; Practice</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="#contact">Contact</a>
+</p>
 
-**Independent Software & Systems Engineer**
+<br />
 
-I build software that has to hold up on real machines: automation across devices that were never meant to cooperate, applied AI with a gate around the model, and native systems with a measurement beside the claim.
+<a id="selected-work"></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/div-work-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/div-work-light.svg" />
+  <img src="assets/div-work-dark.svg" alt="01 — Selected Work" width="100%" />
+</picture>
 
-Automation · Applied AI · Native systems
+<p align="center">
+  <a href="https://github.com/toskaman/openbridge"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-openbridge-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/card-openbridge-light.svg" /><img src="assets/card-openbridge-dark.svg" alt="OpenBridge — Multi-transport device automation fabric" width="49%" /></picture></a>
+  <a href="https://github.com/toskaman/genesis-rt"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-genesis-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/card-genesis-light.svg" /><img src="assets/card-genesis-dark.svg" alt="GENESIS RT — Intent-to-tested QNX-native machine software" width="49%" /></picture></a>
+  <br />
+  <a href="https://github.com/toskaman/anticipate-codegeist-2026"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-anticipate-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/card-anticipate-light.svg" /><img src="assets/card-anticipate-dark.svg" alt="Anticipate — Decision firewall for risky Jira changes" width="49%" /></picture></a>
+  <a href="https://github.com/toskaman/OpenKF"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-openkf-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/card-openkf-light.svg" /><img src="assets/card-openkf-dark.svg" alt="OpenKF — Modern 64-bit Killing Floor client in Rust" width="49%" /></picture></a>
+</p>
 
-[Portfolio](https://toskaman.github.io/) · [Contact](#contact)
+<p align="center">
+  <sub>
+    <strong>OpenBridge:</strong> <a href="https://github.com/toskaman/openbridge/blob/main/docs/DEVICE_EVIDENCE.json">Evidence</a> · <a href="https://youtu.be/TZaxCcRmrLQ">Demo</a>
+    &nbsp;|&nbsp;
+    <strong>GENESIS RT:</strong> <a href="https://github.com/toskaman/genesis-rt/blob/main/docs/CLAIMS.md">Claims</a>
+    &nbsp;|&nbsp;
+    <strong>Anticipate:</strong> <a href="https://github.com/toskaman/anticipate-codegeist-2026/blob/main/docs/evidence/EVIDENCE_PACK.md">Evidence Pack</a>
+    &nbsp;|&nbsp;
+    <strong>OpenKF:</strong> <a href="https://github.com/toskaman/OpenKF/blob/main/docs/BENCHMARKS.md">Benchmarks &amp; Limits</a>
+  </sub>
+</p>
 
-## Selected work
+<br />
 
-### [OpenBridge](https://github.com/toskaman/openbridge)
+<a id="systems--tooling"></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/div-more-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/div-more-light.svg" />
+  <img src="assets/div-more-dark.svg" alt="02 — Systems & Tooling" width="100%" />
+</picture>
 
-Connects devices that were never built to work together, and runs an action only after validation, approval, and a read-back.
+<p align="center">
+  <a href="https://github.com/toskaman/orpane-proof-package"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/mini-orpane-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/mini-orpane-light.svg" /><img src="assets/mini-orpane-dark.svg" alt="Orpane Proof Package" width="49%" /></picture></a>
+  <a href="https://github.com/toskaman/reversa"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/mini-reversa-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/mini-reversa-light.svg" /><img src="assets/mini-reversa-dark.svg" alt="REVERSA" width="49%" /></picture></a>
+  <br />
+  <a href="https://github.com/toskaman/afterpact"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/mini-afterpact-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/mini-afterpact-light.svg" /><img src="assets/mini-afterpact-dark.svg" alt="AFTERPACT" width="49%" /></picture></a>
+  <a href="https://github.com/toskaman/Freenekit"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/mini-freenekit-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/mini-freenekit-light.svg" /><img src="assets/mini-freenekit-dark.svg" alt="Freenekit" width="49%" /></picture></a>
+</p>
 
-Showcased runs are labeled as hardware, a virtual machine, an emulator, or a simulation.
+- **[PHOENIX](https://github.com/toskaman/UGREEN-PHOENIX)** — Recovery checks for a UGREEN AI NAS project using fixed evidence labels. Official static checker passed; real NAS hardware run not in repository yet.
+- **[BridgeWindows v4](https://github.com/toskaman/BridgeWindows-v4)** — Multi-PC agent bridge with HMAC mutual authentication. Channel is authenticated and plaintext for trusted LANs; no GitHub release or licence file.
+- **[RBX-Manager-2](https://github.com/toskaman/RBX-Manager-2)** — Multi-Roblox Windows manager (10 stars) with 320×240 micro-windows and memory optimization. No licence file.
 
-Release [v0.3.2](https://github.com/toskaman/openbridge/releases/tag/v0.3.2). The device log records 37 verified rows: 28 on real hardware, 7 on guest VMs, 2 on official emulators. CI on main was green on 9 Nov 2026. PolyForm Strict 1.0.0.
+<br />
 
-[Evidence](https://github.com/toskaman/openbridge/blob/main/docs/DEVICE_EVIDENCE.json) · [Demo](https://youtu.be/TZaxCcRmrLQ)
+<a id="range--practice"></a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/div-range-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/div-range-light.svg" />
+  <img src="assets/div-range-dark.svg" alt="03 — Range & Practice" width="100%" />
+</picture>
 
-### [GENESIS RT](https://github.com/toskaman/genesis-rt)
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/practice-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/practice-light.svg" />
+    <img src="assets/practice-dark.svg" alt="Technical range, engineering principles and AMD ROCm Certified Associate" width="100%" />
+  </picture>
+</p>
 
-Turns a constrained machine description into QNX-native control software, injects faults, and writes a verdict that can be checked offline.
+<br />
 
-A requirement change should leave a trace, not a screenshot.
+<a id="contact"></a>
+<p align="center">
+  <a href="mailto:toskaman5962+portfolio@gmail.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="assets/footer-light.svg" />
+      <img src="assets/footer-dark.svg" alt="Collaboration, Licensing & Systems R&D — toskaman5962+portfolio@gmail.com" width="100%" />
+    </picture>
+  </a>
+</p>
 
-The repository reports 16/16 on the current on-target matrix, QNX 8 in QEMU x86_64. Host CI was green on 10 Nov 2026. No physical board. No safety certification. [Apache-2.0](https://github.com/toskaman/genesis-rt/blob/main/LICENSE).
-
-[Claims](https://github.com/toskaman/genesis-rt/blob/main/docs/CLAIMS.md)
-
-### [Anticipate](https://github.com/toskaman/anticipate-codegeist-2026)
-
-Checks a risky Jira change before it ships: what depends on it, which option is safer, and whether that evidence has changed since approval.
-
-Built for the ticket that looks local and breaks something two links away.
-
-Atlassian Forge app. Recorded as production 4.3.0 on the owner's Jira site, 10 Nov 2026, with CI green on that main revision. Codegeist 2026 entry. No award is announced. Joint work with Orphee.
-
-[Evidence](https://github.com/toskaman/anticipate-codegeist-2026/blob/main/docs/evidence/EVIDENCE_PACK.md)
-
-## Other work
-
-**[OpenKF](https://github.com/toskaman/OpenKF)** — 64-bit Killing Floor client in Rust: retail protocol, Vulkan, Steam auth. One author-measured headless run on 30 Oct 2026 reported 671 fps and a 0.14 s load on an RTX 4060 Ti; the retail client was at its 120 fps cap. [Method and limits](https://github.com/toskaman/OpenKF/blob/main/docs/BENCHMARKS.md). GPL-3.0. Requires a licensed copy of the game.
-
-**[Orpane](https://github.com/toskaman/orpane-proof-package)** — Lossless compression with a public bit-exact check against reference codecs. The encoder is closed, the ratio figures are author-measured, and the repository has no licence file.
-
-**[Freenekit](https://github.com/toskaman/Freenekit)** — Windows monitor for a Freebox: bandwidth and network state. Release [v1.0.0](https://github.com/toskaman/Freenekit/releases/tag/v1.0.0). No licence file in the repository.
-
-**[BridgeWindows](https://github.com/toskaman/BridgeWindows-v4)** — Multi-PC agent bridge with an HMAC handshake. The channel is authenticated and still plaintext, for a trusted LAN. No GitHub release and no licence file.
-
-**[PHOENIX](https://github.com/toskaman/UGREEN-PHOENIX)** — Recovery checks for a UGREEN NAS project, using fixed evidence labels. The official static checker passed. A run on real NAS hardware is not in the repository yet.
-
-## Range
-
-**Systems** — Rust, C, C++, Vulkan. Native clients, generated control code, measured runtimes.
-
-**AI and automation** — Local inference, device integration, and a deterministic gate when a model is wrong.
-
-**Product engineering** — Python, TypeScript, Electron, Atlassian Forge.
-
-## Practice
-
-- A number stays next to its revision, its method, and its limit.
-- A model may propose. A deterministic check decides.
-- Tests and CI travel with the result.
-- Shared or missing rights are named before any commercial conversation.
-
-## Contact
-
-For collaboration, licensing, or acquisition, email [toskaman5962+portfolio@gmail.com](mailto:toskaman5962+portfolio@gmail.com).
-
-[Discord](https://discord.gg/zNpj8ctH9p) — therealcopper. The server is a community. Email is the right channel for work.
-
-AMD ROCm Certified Associate, earned 5 Nov 2026.
+<p align="center">
+  <a href="https://toskaman.github.io/"><img src="https://img.shields.io/badge/Portfolio-toskaman.github.io-111114?style=for-the-badge&logo=vercel&logoColor=ffb224" alt="Portfolio" /></a>
+  <a href="mailto:toskaman5962+portfolio@gmail.com"><img src="https://img.shields.io/badge/Email-toskaman5962%2Bportfolio%40gmail.com-111114?style=for-the-badge&logo=gmail&logoColor=3ecf8e" alt="Email" /></a>
+  <a href="https://discord.gg/zNpj8ctH9p"><img src="https://img.shields.io/badge/Discord-therealcopper-111114?style=for-the-badge&logo=discord&logoColor=ededef" alt="Discord" /></a>
+</p>
 
 <details>
-<summary>Licensing</summary>
+<summary>Licensing &amp; rights disclosure</summary>
 
 - **OpenBridge** — PolyForm Strict 1.0.0 on current main. That licence limits use.
-- **Anticipate** — proprietary, shared 50/50 with Orphee. A deal needs both holders. Write to info@lepcpro.fr.
+- **Anticipate** — proprietary, shared 50/50 with Orphee. A deal needs both holders. Write to `info@lepcpro.fr`.
 - **GENESIS RT** — Apache-2.0.
+- **REVERSA** — MIT.
 - **OpenKF** — GPL-3.0-or-later. The clean-room statement is the author's. Any acquisition needs an IP review, and the game itself is not mine to license.
-- **Orpane, Freenekit, BridgeWindows** — no licence file. Evaluation only, in writing.
+- **Orpane, Freenekit, BridgeWindows, RBX-Manager-2** — no licence file. Evaluation only, in writing.
 
 Nothing on this page is an offer to sell a right that is shared, missing, or someone else's.
 

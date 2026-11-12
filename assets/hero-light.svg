@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 356" width="1200" height="356" role="img" aria-label="MSDOS10 — Independent Systems and Applied AI Engineer">
+  <title>MSDOS10 — Systems &amp; Applied AI</title>
+  <defs>
+    
+    <pattern id="dots-light" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.15" fill="#dcdcd8"/>
+    </pattern>
+    <radialGradient id="glowA-light" cx="0.82" cy="0.22" r="0.45">
+      <stop offset="0%" stop-color="#b45309" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#b45309" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB-light" cx="0.68" cy="0.85" r="0.42">
+      <stop offset="0%" stop-color="#16a34a" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#16a34a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fadeGrid-light" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="white" stop-opacity="0"/>
+      <stop offset="45%" stop-color="white" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="white" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="gridMask-light">
+      <rect x="0" y="0" width="1200" height="356" fill="url(#fadeGrid-light)"/>
+    </mask>
+    <clipPath id="cardClip-light">
+      <rect x="1" y="1" width="1198" height="354" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#cardClip-light)">
+    <rect x="0" y="0" width="1200" height="356" fill="#f6f6f4"/>
+    <rect x="0" y="0" width="1200" height="356" fill="url(#dots-light)" mask="url(#gridMask-light)"/>
+    <rect x="0" y="0" width="1200" height="356" fill="url(#glowA-light)"/>
+    <rect x="0" y="0" width="1200" height="356" fill="url(#glowB-light)"/>
+  </g>
+  <rect x="1" y="1" width="1198" height="354" rx="16" fill="none" stroke="#e2e2df" stroke-width="1.2"/>
+
+  <!-- Top Left Brand + Status -->
+  <g transform="translate(52, 36)">
+    <rect x="0" y="0" width="38" height="38" rx="9" fill="#0c0c0e" stroke="#c9c9c4" stroke-width="1"/>
+    <path d="M9 28V10h4.2L19 18.6 24.8 10H29v18h-4.1V17.1L20.1 24h-2.2l-4.8-6.9V28Z" fill="#ffffff"/>
+    <rect x="29.5" y="23.5" width="4.5" height="4.5" rx="1" fill="#b45309">
+      <animate attributeName="opacity" values="1;1;0.15;1" keyTimes="0;0.55;0.7;1" dur="2.4s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="52" y="16" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="0.4" fill="#0c0c0e">MSDOS10</text>
+    <circle cx="57" cy="31" r="4" fill="#16a34a">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="68" y="34.5" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11.5" font-weight="500" letter-spacing="0.6" fill="#4e4e56">INDEPENDENT SYSTEMS &amp; APPLIED AI ENGINEER</text>
+  </g>
+
+  <!-- Main Headline -->
+  <text x="52" y="148" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="48" font-weight="700" letter-spacing="-1.2" fill="#0c0c0e">Software that holds up</text>
+  <text x="52" y="202" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="48" font-weight="700" letter-spacing="-1.2" fill="#72727b">on real machines.</text>
+
+  <!-- Lead Copy -->
+  <text x="52" y="244" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="400" fill="#4e4e56">Cross-device automation, applied AI behind deterministic gates,</text>
+  <text x="52" y="266" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="400" fill="#4e4e56">and native systems shipped with reproducible measurements.</text>
+
+  <!-- Bottom Pills -->
+  <rect x="52" y="286" width="156.0" height="24" rx="6" fill="#dcfce7" stroke="#86efac" stroke-width="1"/><text x="130.0" y="302" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="600" fill="#16a34a">2,574+ commits / 12m</text>
+  <rect x="218" y="286" width="152.0" height="24" rx="6" fill="#fef3c7" stroke="#fcd34d" stroke-width="1"/><text x="294.0" y="302" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="600" fill="#b45309">AMD ROCm Associate</text>
+  <rect x="380" y="286" width="178.0" height="24" rx="6" fill="#f1f1ef" stroke="#e2e2df" stroke-width="1"/><text x="469.0" y="302" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="600" fill="#4e4e56">Rust · Python · TS · C</text>
+
+  <!-- Right Floating Telemetry Terminal Card -->
+  <g transform="translate(734, 42)">
+    <rect x="0" y="0" width="414" height="272" rx="12" fill="#ffffff" stroke="#c9c9c4" stroke-width="1"/>
+    <!-- Window Chrome -->
+    <rect x="0" y="0" width="414" height="36" rx="12" fill="#f1f1ef"/>
+    <rect x="0" y="24" width="414" height="12" fill="#f1f1ef"/>
+    <line x1="0" y1="36" x2="414" y2="36" stroke="#e2e2df" stroke-width="1"/>
+    <circle cx="18" cy="18" r="4.5" fill="#c9c9c4"/>
+    <circle cx="33" cy="18" r="4.5" fill="#c9c9c4"/>
+    <circle cx="48" cy="18" r="4.5" fill="#c9c9c4"/>
+    <text x="72" y="22" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#72727b">C:\&gt; profile.exe --verify</text>
+
+    <!-- Terminal Body -->
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12.5">
+      <text x="20" y="64" fill="#72727b">$ verify --scope=production</text>
+
+      <text x="20" y="96" fill="#b45309">01</text>
+      <text x="44" y="96" fill="#0c0c0e">model.propose()</text>
+      <rect x="278" y="81" width="114" height="20" rx="5" fill="#f1f1ef" stroke="#e2e2df"/>
+      <text x="335" y="95" text-anchor="middle" font-size="10.5" font-weight="600" fill="#4e4e56">ADVISORY</text>
+
+      <text x="20" y="130" fill="#b45309">02</text>
+      <text x="44" y="130" fill="#0c0c0e">gate.validate()</text>
+      <rect x="278" y="115" width="114" height="20" rx="5" fill="#fef3c7" stroke="#fcd34d"/>
+      <text x="335" y="129" text-anchor="middle" font-size="10.5" font-weight="600" fill="#b45309">DETERMINISTIC</text>
+
+      <text x="20" y="164" fill="#b45309">03</text>
+      <text x="44" y="164" fill="#0c0c0e">hw.readback()</text>
+      <rect x="278" y="149" width="114" height="20" rx="5" fill="#dcfce7" stroke="#86efac"/>
+      <text x="335" y="163" text-anchor="middle" font-size="10.5" font-weight="600" fill="#16a34a">37/37 HW LOG</text>
+
+      <line x1="20" y1="190" x2="394" y2="190" stroke="#e2e2df" stroke-width="1"/>
+
+      <text x="20" y="216" font-size="11.5" fill="#4e4e56">revision-pinned · limits disclosed</text>
+
+      <circle cx="25" cy="242" r="4" fill="#16a34a"/>
+      <text x="37" y="246" font-size="12" font-weight="600" fill="#16a34a">EXIT 0x00 // EVIDENCE PACKED</text>
+      <rect x="268" y="234" width="8" height="14" rx="1.5" fill="#b45309">
+        <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.48;0.5;0.98;1" dur="1.3s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+</svg>
