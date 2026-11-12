@@ -1,15 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 248" width="440" height="248" role="img" aria-label="OpenBridge — Multi-transport device automation">
   <title>OpenBridge</title>
   <defs>
-    <linearGradient id="topGlow-dark-OpenBridge" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#ffb224" stop-opacity="0.65"/>
-      <stop offset="55%" stop-color="#3ecf8e" stop-opacity="0.30"/>
-      <stop offset="100%" stop-color="#27272a" stop-opacity="0"/>
+    <linearGradient id="cardSurf-dark-openbridge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#18181d"/>
+      <stop offset="100%" stop-color="#111114"/>
     </linearGradient>
+    <linearGradient id="topGlow-dark-openbridge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffb224" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffb224" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3ecf8e" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="cClip-dark-openbridge">
+      <rect x="1" y="1" width="438" height="246" rx="12"/>
+    </clipPath>
   </defs>
 
-  <rect x="1" y="1" width="438" height="246" rx="12" fill="#111114" stroke="#27272a" stroke-width="1.2"/>
-  <rect x="22" y="1" width="150" height="2.2" rx="1" fill="url(#topGlow-dark-OpenBridge)"/>
+  <g clip-path="url(#cClip-dark-openbridge)">
+    <rect x="0" y="0" width="440" height="248" fill="url(#cardSurf-dark-openbridge)"/>
+    <!-- Subtle top-edge traveling highlight -->
+    <rect x="-120" y="0" width="140" height="2.4" fill="url(#topGlow-dark-openbridge)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;580 0;580 0" keyTimes="0;0.38;1" dur="6.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="1" y="1" width="438" height="246" rx="12" fill="none" stroke="#27272a" stroke-width="1.2"/>
+  <line x1="16" y1="1.5" x2="424" y2="1.5" stroke="#45454f" stroke-width="1" opacity="0.45"/>
 
   <text x="22" y="38" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" letter-spacing="-0.3" fill="#ededef">OpenBridge</text>
   <g transform="translate(355.8, 18)">
@@ -19,17 +33,29 @@
   <circle cx="27" cy="59" r="4" fill="#3572A5"/>
   <text x="37" y="63" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="600" fill="#b4b4bd">Python · PolyForm Strict</text>
 
-  <text x="22" y="94" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#ffb224">Multi-transport device automation</text>
+  <g transform="translate(362, 54)" opacity="0.85">
+          <path d="M0 4 H18 L26 12 H44 M0 12 H44 M0 20 H18 L26 12" fill="none" stroke="#3a3a42" stroke-width="1.4" stroke-linecap="round"/>
+          <circle cx="0" cy="4" r="2.2" fill="#ffb224"/>
+          <circle cx="0" cy="12" r="2.2" fill="#38bdf8"/>
+          <circle cx="0" cy="20" r="2.2" fill="#3ecf8e"/>
+          <circle cx="44" cy="12" r="3" fill="#3ecf8e"/>
+          <circle cx="0" cy="12" r="2.2" fill="#3ecf8e">
+            <animate attributeName="cx" values="0;44;44" keyTimes="0;0.7;1" dur="3.4s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5;1" dur="3.4s" repeatCount="indefinite"/>
+          </circle>
+        </g>
 
-  <text x="22" y="120" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#b4b4bd">Connects uncooperative hardware over</text>
-  <text x="22" y="140" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#b4b4bd">mDNS, SSDP, ADB &amp; BLE; executes only</text>
-  <text x="22" y="160" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#b4b4bd">after validation, approval &amp; read-back.</text>
+  <text x="22" y="95" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="600" fill="#ffb224">Multi-transport device automation</text>
+
+  <text x="22" y="122" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#b4b4bd">Connects uncooperative hardware over</text>
+  <text x="22" y="142" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#b4b4bd">mDNS, SSDP, ADB &amp; BLE; executes only</text>
+  <text x="22" y="162" font-family="ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#b4b4bd">after validation, approval &amp; read-back.</text>
 
   <line x1="22" y1="188" x2="418" y2="188" stroke="#27272a" stroke-width="1"/>
   <circle cx="28" cy="216" r="3.5" fill="#3ecf8e"/>
   <text x="39" y="220" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="12" font-weight="500" fill="#b4b4bd">37/37 rows (28 HW · 7 VM · 2 Emu)</text>
 
-  <g transform="translate(341.7, 204)">
-    <rect x="0" y="0" width="76.3" height="24" rx="6" fill="#0b2419" stroke="#196143" stroke-width="1"/><text x="38.2" y="16.0" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="600" fill="#3ecf8e">CI GREEN</text>
+  <g transform="translate(333.7, 204)">
+    <rect x="0" y="0" width="84.3" height="24" rx="6" fill="#0a2218" stroke="#196143" stroke-width="1"/><circle cx="12" cy="12.0" r="3.2" fill="#3ecf8e"><animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/></circle><text x="20.0" y="16.0" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="600" fill="#3ecf8e">CI GREEN</text>
   </g>
 </svg>

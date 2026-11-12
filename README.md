@@ -68,13 +68,13 @@
 
 | Hackathon | Organizer | Period | Entry &amp; Scope |
 |---|---|---|---|
-| **Meta AI Devices Hackathon** | Meta | Oct – Nov 2026 | [**OpenBridge**](https://github.com/toskaman/openbridge) (`v0.3.2`) — 37/37 verified device rows, CI green |
-| [**Codegeist 2026**](https://codegeist2026.devpost.com/) | Atlassian | Oct – Dec 2026 | [**Anticipate**](https://github.com/toskaman/anticipate-codegeist-2026) (`Prod 4.3.0`) — Jira decision firewall, joint 50/50 w/ Orphee |
-| [**QNX Global Hackathon 2026**](https://qnx.devpost.com/) | QNX (BlackBerry) | Nov – Dec 2026 | [**GENESIS RT**](https://github.com/toskaman/genesis-rt) — 16/16 QEMU x86_64 matrix, host CI green |
-| **PayPal AI Hackathon 2026** | PayPal | Nov 2026 | [**AFTERPACT**](https://github.com/toskaman/afterpact) — Agentic commerce assurance &amp; Flight Recorder |
-| [**Vultr: Agent Rush Hackathon**](https://lablab.build/ai-hackathons/vultr-hackathon) | Vultr × lablab | Nov 2026 | [**REVERSA**](https://github.com/toskaman/reversa) — Self-healing AI operations &amp; Evidence Passport |
-| **UGREEN AI NAS Hackathon 2026** | UGREEN | Nov 2026 | [**PHOENIX**](https://github.com/toskaman/UGREEN-PHOENIX) — Recovery checks (Round 1 submitted; real NAS pending) |
-| [**AMD AI League**](https://lablab.build/ai-hackathons/amd-lablab-ai-academy-challenge) | AMD × lablab | Sep – Dec 2026 | Participant · Earned [**AMD ROCm™ Certified Associate**](https://toskaman.github.io/) (5 Nov 2026) |
+| **Meta AI Devices** | Meta | Oct–Nov 2026 | [**OpenBridge**](https://github.com/toskaman/openbridge) (`v0.3.2`) — 37/37 verified device rows, CI green |
+| [**Codegeist 2026**](https://codegeist2026.devpost.com/) | Atlassian | Oct–Dec 2026 | [**Anticipate**](https://github.com/toskaman/anticipate-codegeist-2026) (`Prod 4.3.0`) — Jira decision firewall, joint 50/50 w/ Orphee |
+| [**QNX Global Hackathon**](https://qnx.devpost.com/) | BlackBerry QNX | Nov–Dec 2026 | [**GENESIS RT**](https://github.com/toskaman/genesis-rt) — 16/16 QEMU x86_64 matrix, host CI green |
+| **PayPal AI Hackathon** | PayPal | Nov 2026 | [**AFTERPACT**](https://github.com/toskaman/afterpact) — Agentic commerce assurance &amp; Flight Recorder |
+| [**Vultr: Agent Rush**](https://lablab.build/ai-hackathons/vultr-hackathon) | Vultr × lablab | Nov 2026 | [**REVERSA**](https://github.com/toskaman/reversa) — Self-healing AI operations &amp; Evidence Passport |
+| **UGREEN AI NAS** | UGREEN | Nov 2026 | [**PHOENIX**](https://github.com/toskaman/UGREEN-PHOENIX) — Recovery checks (Round 1 submitted; real NAS pending) |
+| [**AMD AI League**](https://lablab.build/ai-hackathons/amd-lablab-ai-academy-challenge) | AMD × lablab | Sep–Dec 2026 | Participant · Earned [**AMD ROCm™ Certified Associate**](https://toskaman.github.io/) (5 Nov 2026) |
 
 <br />
 
