@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://toskaman.github.io/"><strong>Portfolio ↗</strong></a>
+  <a href="https://toskaman.github.io/"><strong>Portfolio</strong></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#selected-work">Selected Work</a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
@@ -101,9 +101,9 @@
 </p>
 
 <p align="center">
-  <a href="https://toskaman.github.io/"><img src="https://img.shields.io/badge/Portfolio-toskaman.github.io-111114?style=for-the-badge&logo=vercel&logoColor=ffb224" alt="Portfolio" /></a>
-  <a href="mailto:toskaman5962+portfolio@gmail.com"><img src="https://img.shields.io/badge/Email-toskaman5962%2Bportfolio%40gmail.com-111114?style=for-the-badge&logo=gmail&logoColor=3ecf8e" alt="Email" /></a>
-  <a href="https://discord.gg/zNpj8ctH9p"><img src="https://img.shields.io/badge/Discord-therealcopper-111114?style=for-the-badge&logo=discord&logoColor=ededef" alt="Discord" /></a>
+  <a href="https://toskaman.github.io/"><img src="https://img.shields.io/badge/Portfolio-toskaman.github.io-17171b?style=for-the-badge&labelColor=212127&logo=vercel&logoColor=ffb224" alt="Portfolio" /></a>
+  <a href="mailto:toskaman5962+portfolio@gmail.com"><img src="https://img.shields.io/badge/Email-Direct_Inquiry-17171b?style=for-the-badge&labelColor=212127&logo=gmail&logoColor=3ecf8e" alt="Email" /></a>
+  <a href="https://discord.gg/zNpj8ctH9p"><img src="https://img.shields.io/badge/Discord-therealcopper-17171b?style=for-the-badge&labelColor=212127&logo=discord&logoColor=ededef" alt="Discord" /></a>
 </p>
 
 <details>
