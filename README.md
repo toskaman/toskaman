@@ -44,7 +44,7 @@
   &nbsp;|&nbsp;
   <strong>GENESIS RT:</strong> <a href="https://github.com/toskaman/genesis-rt/blob/main/docs/CLAIMS.md">Claims</a>
   &nbsp;|&nbsp;
-  <strong>Anticipate:</strong> <a href="https://github.com/toskaman/anticipate-codegeist-2026/blob/main/docs/evidence/EVIDENCE_PACK.md">Evidence Pack</a>
+  <strong>Anticipate:</strong> <a href="https://github.com/toskaman/anticipate-codegeist-2026/blob/main/docs/evidence/EVIDENCE_PACK.md">Evidence Pack</a> · <a href="https://youtu.be/kNBhV1Di82U">Demo</a>
   &nbsp;|&nbsp;
   <strong>OpenKF:</strong> <a href="https://github.com/toskaman/OpenKF/blob/main/docs/BENCHMARKS.md">Benchmarks &amp; Limits</a>
 </p>
@@ -69,7 +69,7 @@
 | Hackathon | Organizer | Period | Entry &amp; Scope |
 |---|---|---|---|
 | **Meta AI Devices** | Meta | Oct–Nov 2026 | [**OpenBridge**](https://github.com/toskaman/openbridge) (`v0.3.2`) — 37/37 verified device rows, CI green |
-| [**Codegeist 2026**](https://codegeist2026.devpost.com/) | Atlassian | Oct–Dec 2026 | [**Anticipate**](https://github.com/toskaman/anticipate-codegeist-2026) (`Prod 4.3.0`) — Jira decision firewall, joint 50/50 w/ Orphee |
+| [**Codegeist 2026**](https://codegeist2026.devpost.com/) | Atlassian | Oct–Dec 2026 | [**Anticipate**](https://github.com/toskaman/anticipate-codegeist-2026) (`Prod 4.9.0`) — Jira decision firewall, [demo video](https://youtu.be/kNBhV1Di82U), joint 50/50 w/ Orphee |
 | [**QNX Global Hackathon**](https://qnx.devpost.com/) | BlackBerry QNX | Nov–Dec 2026 | [**GENESIS RT**](https://github.com/toskaman/genesis-rt) — 16/16 QEMU x86_64 matrix, host CI green |
 | **PayPal AI Hackathon** | PayPal | Nov 2026 | [**AFTERPACT**](https://github.com/toskaman/afterpact) — Agentic commerce assurance &amp; Flight Recorder |
 | [**Vultr: Agent Rush**](https://lablab.build/ai-hackathons/vultr-hackathon) | Vultr × lablab | Nov 2026 | [**REVERSA**](https://github.com/toskaman/reversa) — Self-healing AI operations &amp; Evidence Passport |
