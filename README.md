@@ -11,6 +11,8 @@
 <p align="center">
   <a href="https://toskaman.github.io/"><strong>Portfolio</strong></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="#partners">Partners</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#selected-work">Selected Work</a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#hackathons-2026">Hackathons 2026</a>
@@ -20,6 +22,19 @@
   <a href="#range--practice">Range &amp; Practice</a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#contact">Contact</a>
+</p>
+
+<br />
+
+<a id="partners"></a>
+<p align="center">
+  <a href="https://www.engoeyewear.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/partner-engo-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/partner-engo-light.svg" /><img src="assets/partner-engo-dark.svg" alt="Hardware partner: ENGO smart glasses, powered by ActiveLook by Microoled" width="100%" /></picture></a>
+</p>
+
+<p align="center">
+  <strong>Hardware partner:</strong> <a href="https://www.engoeyewear.com">ENGO smart glasses</a> · <a href="https://www.activelook.net">ActiveLook by Microoled</a> · <a href="https://github.com/toskaman/openbridge/blob/main/docs/partners/ENGO.md">OpenBridge integration plan</a>
+  <br />
+  <sub>Building connected hardware? <a href="mailto:toskaman5962+portfolio@gmail.com?subject=Hardware%20partnership">Let's integrate it.</a></sub>
 </p>
 
 <br />
