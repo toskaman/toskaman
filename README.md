@@ -77,18 +77,20 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/hackathons-banner-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="assets/hackathons-banner-light.svg" />
-    <img src="assets/hackathons-banner-dark.svg" alt="2026 Hackathon Track Record — 7 Events, 6 Shipped Repos" width="100%" />
+    <img src="assets/hackathons-banner-dark.svg" alt="2026 Hackathon Track Record: 9 events, 8 shipped repos" width="100%" />
   </picture>
 </p>
 
 | Hackathon | Organizer | Period | Entry &amp; Scope |
 |---|---|---|---|
-| **Meta AI Devices** | Meta | Oct–Nov 2026 | [**OpenBridge**](https://github.com/toskaman/openbridge) (`v0.3.2`) — 37/37 verified device rows, CI green |
-| [**Codegeist 2026**](https://codegeist2026.devpost.com/) | Atlassian | Oct–Dec 2026 | [**Anticipate**](https://github.com/toskaman/anticipate-codegeist-2026) (`Prod 4.9.0`) — Jira decision firewall, [demo video](https://youtu.be/kNBhV1Di82U), joint 50/50 w/ Orphee |
-| [**QNX Global Hackathon**](https://qnx.devpost.com/) | BlackBerry QNX | Nov–Dec 2026 | [**GENESIS RT**](https://github.com/toskaman/genesis-rt) — 16/16 QEMU x86_64 matrix, host CI green |
-| **PayPal AI Hackathon** | PayPal | Nov 2026 | [**AFTERPACT**](https://github.com/toskaman/afterpact) — Agentic commerce assurance &amp; Flight Recorder |
-| [**Vultr: Agent Rush**](https://lablab.build/ai-hackathons/vultr-hackathon) | Vultr × lablab | Nov 2026 | [**REVERSA**](https://github.com/toskaman/reversa) — Self-healing AI operations &amp; Evidence Passport |
-| **UGREEN AI NAS** | UGREEN | Nov 2026 | [**PHOENIX**](https://github.com/toskaman/UGREEN-PHOENIX) — Recovery checks (Round 1 submitted; real NAS pending) |
+| **Meta AI Devices** | Meta | Oct–Nov 2026 | [**OpenBridge**](https://github.com/toskaman/openbridge) (`v0.3.2`) · 37/37 verified device rows, CI green |
+| [**Codegeist 2026**](https://codegeist2026.devpost.com/) | Atlassian | Oct–Dec 2026 | [**Anticipate**](https://github.com/toskaman/anticipate-codegeist-2026) (`Prod 4.9.0`) · Jira decision firewall, [demo video](https://youtu.be/kNBhV1Di82U), joint 50/50 w/ Orphee |
+| [**QNX Global Hackathon**](https://qnx.devpost.com/) | BlackBerry QNX | Nov–Dec 2026 | [**GENESIS RT**](https://github.com/toskaman/genesis-rt) · 16/16 QEMU x86_64 matrix, host CI green |
+| **PayPal AI Hackathon** | PayPal | Nov 2026 | [**AFTERPACT**](https://github.com/toskaman/afterpact) · Agentic commerce assurance &amp; Flight Recorder |
+| [**Vultr: Agent Rush**](https://lablab.build/ai-hackathons/vultr-hackathon) | Vultr × lablab | Nov 2026 | [**REVERSA**](https://github.com/toskaman/reversa) · Self-healing AI operations &amp; Evidence Passport |
+| [**Open Agentic Web Challenge**](https://cognizant-agenticweb.devpost.com/) | Cognizant AI Lab | Nov 2026 – Jan 2027 | [**CONTINUITY**](https://github.com/toskaman/continuity-agentic-web) · Safe multi-provider change coordinator, [live demo](https://toskaman.github.io/continuity-agentic-web/?demo=1), Lighthouse 100 ×5 |
+| **UGREEN AI NAS** | UGREEN | Nov 2026 | [**PHOENIX**](https://github.com/toskaman/UGREEN-PHOENIX) · Recovery checks (Round 1 submitted; real NAS pending) |
+| **Relate by Neo4j** | Neo4j | Nov–Dec 2026 | [**UNLOCK**](https://github.com/toskaman/unlock-accessibility-graph) · Accessibility impact graph: 996 Île-de-France stations, which lift repair unlocks the most step-free journeys |
 | [**AMD AI League**](https://lablab.build/ai-hackathons/amd-lablab-ai-academy-challenge) | AMD × lablab | Sep–Dec 2026 | Participant · Earned [**AMD ROCm™ Certified Associate**](https://toskaman.github.io/) (5 Nov 2026) |
 
 <br />
