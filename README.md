@@ -10,31 +10,35 @@
 
 <p align="center">
   <a href="https://toskaman.github.io/"><strong>Portfolio</strong></a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="#partners">Partners</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="#selected-work">Selected Work</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="#hackathons-2026">Hackathons 2026</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="#systems--tooling">Systems &amp; Tooling</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="#range--practice">Range &amp; Practice</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="#contact">Contact</a>
+  &nbsp;·&nbsp; <a href="#partners">Partners</a>
+  &nbsp;·&nbsp; <a href="#selected-work">Work</a>
+  &nbsp;·&nbsp; <a href="#hackathons-2026">Hackathons</a>
+  &nbsp;·&nbsp; <a href="#contact">Contact</a>
 </p>
 
 <br />
 
 <a id="partners"></a>
+<h3 align="center">Hardware partners</h3>
+
 <p align="center">
   <a href="https://www.engoeyewear.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/partner-engo-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/partner-engo-light.svg" /><img src="assets/partner-engo-dark.svg" alt="Hardware partner: ENGO smart glasses, powered by ActiveLook by Microoled" width="100%" /></picture></a>
+  <br />
+  <a href="https://heltec.cn/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/partner-heltec-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/partner-heltec-light.svg" /><img src="assets/partner-heltec-dark.svg" alt="Hardware partner: Heltec Automation, WiFi LoRa 32 V4" width="100%" /></picture></a>
 </p>
 
 <p align="center">
-  <strong>Hardware partners:</strong> <a href="https://www.engoeyewear.com">ENGO smart glasses</a> · <a href="https://www.activelook.net">ActiveLook by Microoled</a> (<a href="https://github.com/toskaman/openbridge/blob/main/docs/partners/ENGO.md">OpenBridge integration plan</a>) · <a href="https://heltec.cn/"><img src="assets/partner-heltec.png" height="16" alt="" /> Heltec Automation</a> (sending a <a href="https://heltec.org/project/wifi-lora-32-v4/">WiFi LoRa 32 V4</a> board)
-  <br />
   <sub>Building connected hardware? <a href="mailto:toskaman5962+portfolio@gmail.com?subject=Hardware%20partnership">Let's integrate it.</a></sub>
+</p>
+
+<br />
+
+<h3 align="center">Certification</h3>
+
+<p align="center">
+  <img src="assets/cert-rocm.png" width="140" alt="AMD ROCm Certified Associate" />
+  <br />
+  <strong>AMD ROCm™ Certified Associate</strong> · November 2026
 </p>
 
 <br />
@@ -81,17 +85,17 @@
   </picture>
 </p>
 
-| Hackathon | Organizer | Period | Entry &amp; Scope |
-|---|---|---|---|
-| **Meta AI Devices** | Meta | Oct–Nov 2026 | [**OpenBridge**](https://github.com/toskaman/openbridge) (`v0.3.2`) · 37/37 verified device rows, CI green |
-| [**Codegeist 2026**](https://codegeist2026.devpost.com/) | Atlassian | Oct–Dec 2026 | [**Anticipate**](https://github.com/toskaman/anticipate-codegeist-2026) (`Prod 4.9.0`) · Jira decision firewall, [demo video](https://youtu.be/kNBhV1Di82U), joint 50/50 w/ Orphee |
-| [**QNX Global Hackathon**](https://qnx.devpost.com/) | BlackBerry QNX | Nov–Dec 2026 | [**GENESIS RT**](https://github.com/toskaman/genesis-rt) · 16/16 QEMU x86_64 matrix, host CI green |
-| **PayPal AI Hackathon** | PayPal | Nov 2026 | [**AFTERPACT**](https://github.com/toskaman/afterpact) · Agentic commerce assurance &amp; Flight Recorder |
-| [**Vultr: Agent Rush**](https://lablab.build/ai-hackathons/vultr-hackathon) | Vultr × lablab | Nov 2026 | [**REVERSA**](https://github.com/toskaman/reversa) · Self-healing AI operations &amp; Evidence Passport |
-| [**Open Agentic Web Challenge**](https://cognizant-agenticweb.devpost.com/) | Cognizant AI Lab | Nov 2026 – Jan 2027 | [**CONTINUITY**](https://github.com/toskaman/continuity-agentic-web) · Safe multi-provider change coordinator, [live demo](https://toskaman.github.io/continuity-agentic-web/?demo=1), Lighthouse 100 ×5 |
-| **UGREEN AI NAS** | UGREEN | Nov 2026 | [**PHOENIX**](https://github.com/toskaman/UGREEN-PHOENIX) · Recovery checks (Round 1 submitted; real NAS pending) |
-| **Relate by Neo4j** | Neo4j | Nov–Dec 2026 | [**UNLOCK**](https://github.com/toskaman/unlock-accessibility-graph) · Accessibility impact graph: 996 Île-de-France stations, which lift repair unlocks the most step-free journeys |
-| [**AMD AI League**](https://lablab.build/ai-hackathons/amd-lablab-ai-academy-challenge) | AMD × lablab | Sep–Dec 2026 | Participant · Earned [**AMD ROCm™ Certified Associate**](https://toskaman.github.io/) (5 Nov 2026) |
+| Hackathon | Organizer | Entry |
+|---|---|---|
+| **Meta AI Devices** | Meta | [**OpenBridge**](https://github.com/toskaman/openbridge) · device automation fabric |
+| [**Codegeist 2026**](https://codegeist2026.devpost.com/) | Atlassian | [**Anticipate**](https://github.com/toskaman/anticipate-codegeist-2026) · Jira decision firewall |
+| [**QNX Global Hackathon**](https://qnx.devpost.com/) | BlackBerry QNX | [**GENESIS RT**](https://github.com/toskaman/genesis-rt) · QNX-native machine software |
+| **PayPal AI Hackathon** | PayPal | [**AFTERPACT**](https://github.com/toskaman/afterpact) · agentic commerce assurance |
+| [**Vultr: Agent Rush**](https://lablab.build/ai-hackathons/vultr-hackathon) | Vultr × lablab | [**REVERSA**](https://github.com/toskaman/reversa) · self-healing AI operations |
+| [**Open Agentic Web**](https://cognizant-agenticweb.devpost.com/) | Cognizant AI Lab | [**CONTINUITY**](https://github.com/toskaman/continuity-agentic-web) · multi-provider change coordinator |
+| **UGREEN AI NAS** | UGREEN | [**PHOENIX**](https://github.com/toskaman/UGREEN-PHOENIX) · NAS recovery checks |
+| **Relate by Neo4j** | Neo4j | [**UNLOCK**](https://github.com/toskaman/unlock-accessibility-graph) · accessibility impact graph |
+| [**AMD AI League**](https://lablab.build/ai-hackathons/amd-lablab-ai-academy-challenge) | AMD × lablab | Participant · AMD ROCm™ Certified Associate |
 
 <br />
 
@@ -108,27 +112,6 @@
   <br />
   <a href="https://github.com/toskaman/afterpact"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/mini-afterpact-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/mini-afterpact-light.svg" /><img src="assets/mini-afterpact-dark.svg" alt="AFTERPACT" width="49%" /></picture></a>
   <a href="https://github.com/toskaman/Freenekit"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/mini-freenekit-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/mini-freenekit-light.svg" /><img src="assets/mini-freenekit-dark.svg" alt="Freenekit" width="49%" /></picture></a>
-</p>
-
-- **[PHOENIX](https://github.com/toskaman/UGREEN-PHOENIX)** — Recovery checks for a UGREEN AI NAS project using fixed evidence labels. Official static checker passed; real NAS hardware run not in repository yet.
-- **[BridgeWindows v4](https://github.com/toskaman/BridgeWindows-v4)** — Multi-PC agent bridge with HMAC mutual authentication. Channel is authenticated and plaintext for trusted LANs; no GitHub release or licence file.
-- **[RBX-Manager-2](https://github.com/toskaman/RBX-Manager-2)** — Multi-Roblox Windows manager (10 stars) with 320×240 micro-windows and memory optimization. No licence file.
-
-<br />
-
-<a id="range--practice"></a>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/div-range-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/div-range-light.svg" />
-  <img src="assets/div-range-dark.svg" alt="04 — Range & Practice" width="100%" />
-</picture>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/practice-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="assets/practice-light.svg" />
-    <img src="assets/practice-dark.svg" alt="Technical range, engineering principles and AMD ROCm Certified Associate" width="100%" />
-  </picture>
 </p>
 
 <br />
