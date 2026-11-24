@@ -34,6 +34,8 @@
 <p align="center">
   <strong>Hardware partner:</strong> <a href="https://www.engoeyewear.com">ENGO smart glasses</a> · <a href="https://www.activelook.net">ActiveLook by Microoled</a> · <a href="https://github.com/toskaman/openbridge/blob/main/docs/partners/ENGO.md">OpenBridge integration plan</a>
   <br />
+  <strong>Hardware sponsor:</strong> <a href="https://heltec.cn/"><img src="assets/partner-heltec.png" height="16" alt="" /> Heltec Automation</a>, IoT &amp; LoRa boards · sending OpenBridge a <a href="https://heltec.org/project/wifi-lora-32-v4/">Heltec WiFi LoRa 32 V4</a> development board
+  <br />
   <sub>Building connected hardware? <a href="mailto:toskaman5962+portfolio@gmail.com?subject=Hardware%20partnership">Let's integrate it.</a></sub>
 </p>
 
