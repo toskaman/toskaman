@@ -85,21 +85,23 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/hackathons-banner-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="assets/hackathons-banner-light.svg" />
-    <img src="assets/hackathons-banner-dark.svg" alt="2026 Hackathon Track Record: 9 events, 8 shipped repos" width="100%" />
+    <img src="assets/hackathons-banner-dark.svg" alt="2026 Hackathon Track Record: 11 events, 8 public repos" width="100%" />
   </picture>
 </p>
 
-| Hackathon | Organizer | Entry |
-|---|---|---|
-| **Meta AI Devices** | Meta | [**OpenBridge**](https://github.com/toskaman/openbridge) · device automation fabric |
-| [**Codegeist 2026**](https://codegeist2026.devpost.com/) | Atlassian | [**Anticipate**](https://github.com/toskaman/anticipate-codegeist-2026) · Jira decision firewall |
-| [**QNX Global Hackathon**](https://qnx.devpost.com/) | BlackBerry QNX | [**GENESIS RT**](https://github.com/toskaman/genesis-rt) · QNX-native machine software |
-| **PayPal AI Hackathon** | PayPal | [**AFTERPACT**](https://github.com/toskaman/afterpact) · agentic commerce assurance |
-| [**Vultr: Agent Rush**](https://lablab.build/ai-hackathons/vultr-hackathon) | Vultr × lablab | [**REVERSA**](https://github.com/toskaman/reversa) · self-healing AI operations |
-| [**Open Agentic Web**](https://cognizant-agenticweb.devpost.com/) | Cognizant AI Lab | [**CONTINUITY**](https://github.com/toskaman/continuity-agentic-web) · multi-provider change coordinator |
-| **UGREEN AI NAS** | UGREEN | [**PHOENIX**](https://github.com/toskaman/UGREEN-PHOENIX) · NAS recovery checks |
-| **Relate by Neo4j** | Neo4j | [**UNLOCK**](https://github.com/toskaman/unlock-accessibility-graph) · accessibility impact graph |
-| [**AMD AI League**](https://lablab.build/ai-hackathons/amd-lablab-ai-academy-challenge) | AMD × lablab | Participant · AMD ROCm™ Certified Associate |
+| Hackathon | Organizer | Entry | Status |
+|---|---|---|---|
+| [**Meta AI Devices**](https://cerebralvalley.ai/e/meta-ai-developer-hackathon/details) | Meta | [**OpenBridge**](https://github.com/toskaman/openbridge) · device automation fabric | Submitted |
+| [**Codegeist 2026**](https://codegeist2026.devpost.com/) | Atlassian | [**Anticipate**](https://github.com/toskaman/anticipate-codegeist-2026) · Jira decision firewall | Results 15 Feb 2027 |
+| [**QNX Global Hackathon**](https://qnx.devpost.com/) | BlackBerry QNX | [**GENESIS RT**](https://github.com/toskaman/genesis-rt) · QNX-native machine software | Results 4 Feb 2027 |
+| [**PayPal AI Hackathon**](https://paypalaihackathon.devpost.com/) | PayPal | [**AFTERPACT**](https://github.com/toskaman/afterpact) · agentic commerce assurance | Results 21 Dec 2026 |
+| [**Vultr: Agent Rush**](https://lablab.build/ai-hackathons/vultr-hackathon) | Vultr × lablab | [**REVERSA**](https://github.com/toskaman/reversa) · self-healing AI operations | Submitted |
+| [**Open Agentic Web**](https://cognizant-agenticweb.devpost.com/) | Cognizant AI Lab | [**CONTINUITY**](https://github.com/toskaman/continuity-agentic-web) · multi-provider change coordinator | Results 19 Jan 2027 |
+| [**UGREEN AI NAS**](https://ugreenhackathon.devpost.com/) | UGREEN | [**PHOENIX**](https://github.com/toskaman/UGREEN-PHOENIX) · NAS recovery checks | Results 6 Dec 2026 |
+| [**Buffer Commit**](https://buffer.com/api/commit) | Buffer | [**CAMPAIGN HOTFIX**](https://campaign-hotfix.onrender.com) · change control for scheduled campaigns | Results 7 Dec 2026 |
+| [**Relate by Neo4j**](https://relate.devpost.com/) | Neo4j | [**UNLOCK**](https://github.com/toskaman/unlock-accessibility-graph) · accessibility impact graph | Results 18 Dec 2026 |
+| [**Heads Up**](https://dorahacks.io/hackathon/even-realities/detail) | Even Realities | **PARALLAX** · app for Even G2 smart glasses | In progress · deadline 29 Nov |
+| [**AMD AI League**](https://lablab.build/ai-hackathons/amd-lablab-ai-academy-challenge) | AMD × lablab | Participant · AMD ROCm™ Certified Associate | Certified |
 
 <br />
 
