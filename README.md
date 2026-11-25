@@ -25,6 +25,8 @@
   <a href="https://www.engoeyewear.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/partner-engo-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/partner-engo-light.svg" /><img src="assets/partner-engo-dark.svg" alt="Hardware partner: ENGO smart glasses, powered by ActiveLook by Microoled" width="100%" /></picture></a>
   <br />
   <a href="https://heltec.cn/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/partner-heltec-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/partner-heltec-light.svg" /><img src="assets/partner-heltec-dark.svg" alt="Hardware partner: Heltec Automation, WiFi LoRa 32 V4" width="100%" /></picture></a>
+  <br />
+  <a href="https://www.elecrow.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/partner-elecrow-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/partner-elecrow-light.svg" /><img src="assets/partner-elecrow-dark.svg" alt="Hardware partner: Elecrow, CrowPanel Advance 4.3 ESP32-S3 and ESP32-H2" width="100%" /></picture></a>
 </p>
 
 <p align="center">
