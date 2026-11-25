@@ -27,6 +27,8 @@
   <a href="https://heltec.cn/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/partner-heltec-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/partner-heltec-light.svg" /><img src="assets/partner-heltec-dark.svg" alt="Hardware partner: Heltec Automation, WiFi LoRa 32 V4" width="100%" /></picture></a>
   <br />
   <a href="https://www.elecrow.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/partner-elecrow-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/partner-elecrow-light.svg" /><img src="assets/partner-elecrow-dark.svg" alt="Hardware partner: Elecrow, CrowPanel Advance 4.3 ESP32-S3 and ESP32-H2" width="100%" /></picture></a>
+  <br />
+  <a href="https://www.airgradient.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/partner-airgradient-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/partner-airgradient-light.svg" /><img src="assets/partner-airgradient-dark.svg" alt="Hardware partner: AirGradient, AirGradient ONE Indoor Monitor I-9PSL kit" width="100%" /></picture></a>
 </p>
 
 <p align="center">
